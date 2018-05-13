@@ -5,15 +5,15 @@ if (params.has("productid"))
   product = products[params.get("productid")];
 
 $(() => {
-
-$(".productname")[0].text(product.name);
-$(".contains")[0].append(
+$("img").attr("src", product.img);
+$(".productname").text(product.name);
+$(".contains").append(
   product.contains.map (str => str + ", ") //needs change to icons
 );
-$(".price")[0].text(product.price + " KRW");
+$(".price").text(product.price + " KRW");
 
-$("#ingredients ul")[0].append(
-  products.ingredients.map(ing => $("<li>").text(ing)) //may need change, also?
+$("#ingredients ul").append(
+  product.ingredients.map(ing => $("<li>").text(ing)) //may need change, also?
 );
 
 var commentlist = $("#commentlist");
@@ -21,7 +21,7 @@ updateComment ();
 function updateComment () {
   commentlist.empty();
   commentlist.append(
-    products.comments.map (processComment)
+    product.comments.map (processComment)
   );
 }
 function processComment (comment) {
@@ -32,7 +32,7 @@ function processComment (comment) {
       $("<div class='content'>").text(comment.content),
       $("<button>").text("Reply")
     ),
-    $("<ul>").append(comment.reply.map (processComment) )
+    $("<ul>").append(comment.reply && comment.reply.map (processComment) )
   );
 }
 

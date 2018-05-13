@@ -10,7 +10,7 @@ comments: [
     content: "I really liked the flavor of this product!",
     reply: [ {username: "Herbert", content: "I agree with you, had the same experience with this product!", 
 	reply: [ {username: "Sarah", content: "I would also add that the price is very good for this portion!"} ] } ]
-}
+} ],
 };
 products[1] = {
 name:"Domestic Black bean Sun-shik(Bong)",
@@ -22,7 +22,7 @@ contains: [],
   { username: "Kevin",
     content: "This is a bigger portion, you can eat it with your friends.",
     reply: [ {username: "Sandra", content: "Thanks to your comment, I shared it with my friends. Great!" } ]
-}
+} ],
 };
 products[2] = {
 name:"Nongshim Anseongtang",
@@ -34,7 +34,7 @@ contains: ["diary", "pork", "egg", "chicken", "beef"],
   { username: "Samuel",
     content: "I did not know, that the ingredients are from different countries.. nice information.",
     reply: [ {username: "Andrea", content: "Now that you mention it... true!"} ]
-}
+} ],
 };
 products[3] = {
 name:"Tangjeong Cheongjeongwon rice mushroom soup",
@@ -47,7 +47,7 @@ contains: ["diary", "beef"],
     content: "Cheaaaaaaaap!!!!",
     reply: [ {username: "Tim", content: "Yeah, that's how I like it.", 
 	reply: [ {username: "Caroline", content: "For this price I really expected nothing, but yeah... its good!"} ] } ]
-}
+} ],
 };
 products[4] = {
 name:"Ottogi",
@@ -57,7 +57,7 @@ ingredients: ["Rice (domestic)","refined salt"],
 contains: [],
   comments: [
   { username: "Richard",
-    content: "Some good rice."}
+    content: "Some good rice."} ],
 };
 products[5] = {
 name:"A floating wild whelk",
@@ -70,7 +70,7 @@ comments: [
     content: "First thing that I bought from Homeplus, pretty nice.",
     reply: [ {username: "Ahmed", content: "For me it was okay, but nothing special.", 
 	reply: [ {username: "Cristiano", content: "I'll give it a try tomorrow."} ] } ]
-}
+} ],
 };
 products[6] = {
 name:"Nongshim   Nest naengmyeon bibim naengmyeon",
@@ -83,7 +83,7 @@ comments: [
     content: "Some international ingredients! Seeing my country in korea. Haha!",
     reply: [ {username: "Lisa", content: "Don't forget about the taste. I liked it.", 
 	reply: [ {username: "Cassandra", content: "I agree with Lisa."} ] } ]
-}
+} ],
 };
 products[7] = {
 name:"Cheongsoo water cold noodles",
@@ -95,7 +95,7 @@ contains: ["beef"],
   { username: "Raphael",
     content: "I was first sceptical because of the word cold in front of noodles, but... it was acceptable!",
     reply: [ {username: "Lara", content: "For this price, very suitable!" } ]
-}
+} ],
 };
 products[8] = {
 name:"Chicky chewy and refreshing",
@@ -108,7 +108,7 @@ comments: [
     content: "As the name is saying... it was refreshing!!",
     reply: [ {username: "Ryan", content: "Lol, for me not really refreshing.. but was still tasty.", 
 	reply: [ {username: "Andrine", content: "I would recommend!"} ] } ]
-}
+} ],
 };
 products[9] = {
 name:"Ottomer Gongmyeon",
@@ -121,5 +121,5 @@ contains: ["beef", "diary"],
     content: "Something new for me... not my favorite one, but it's okay.",
     reply: [ {username: "Hillary", content: "I enjoyed it!", 
 	reply: [ {username: "Malcolm", content: "My friends did not like this product, but for me it was quiet tasty. I think it differs on person!"} ] } ]
-}
+} ],
 };
