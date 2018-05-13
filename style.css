@@ -246,3 +246,11 @@ header {
   color: darkgrey;
   float: left;
 }
+
+#mainPage {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 3rem;
+}
