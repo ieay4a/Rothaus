@@ -149,7 +149,8 @@ header {
 .cell{
     color: white;
     padding: 0.5rem;
-    text-align: left
+    text-align: left;
+    cursor: pointer;
 }
 #filterSearchButton {
     background-color: white;
