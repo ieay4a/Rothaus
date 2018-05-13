@@ -1,0 +1,184 @@
+body {
+    background-color: lightgrey;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header {
+    top: 0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.logo {
+    text-align: center;
+    color: #FF5555;
+}
+
+#search {
+    border: 2px solid #FF5555;
+    position: relative;
+    height: 1.25rem;
+    margin: auto;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+#searchinput {
+    border: none;
+    width: 90%;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#searchButton {
+    color: #FF5555;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+#advanced {
+    margin-top: 1rem;
+}
+
+#barcodeButton {
+    background-color: white;
+    border: none;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#barcodePanel {
+    background-color: white;
+    border: none;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    padding-bottom: 3rem;
+}
+
+.closeText {
+    margin: 0.25rem;
+}
+
+#barcodeInstruction {
+    color: #FF5555;
+    font-size: 16px;
+    margin: 0.5rem;
+}
+
+#barcodeInput {
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    border: 2px solid #FF5555;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 2rem;
+}
+
+#barcodeSearchButton {
+    background-color: #FF5555;
+    border: none;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#filterButton {
+    background-color: #FF5555;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#filterPanel {
+    background-color: #FF5555;
+    border: none;
+    margin-top: 1rem;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#closeFilter{
+    color: white;
+    
+}
+#buttonDiv{
+    text-align: center;
+}
+.filterTitle{
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.cell{
+    color: white;
+    padding: 0.5rem;
+    text-align: left
+}
+#filterSearchButton {
+    background-color: white;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#resultlist {
+    padding: 0;
+    margin-top: 3rem;
+}
+
+#resultlist li {
+    display: block;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.productname {
+    font-size: large;
+}
