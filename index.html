@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Capital Game!</title>
+    <title>Rothaus</title>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<!--
+    <!--
     <script src="jquery/js/jquery-1.9.0.min.js"></script>
     <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
 -->
@@ -59,21 +59,20 @@
 		<option>Frozen</option>
 	</select>
         </div>
-
         <div class='filterTitle'>EXCLUDE</div>
-        <table style="width:100%">
+        <table id='excludeTable' style="width:100%">
             <tr>
-                <th class='cell'>Meat</th>
-                <th class='cell'>Fish/Seafood</th>
-                <th class='cell'>Eggs</th>
-                <th class='cell'>Dairy</th>
+                <td class='cell'>Meat</td>
+                <td class='cell'>Fish/Seafood</td>
+                <td class='cell'>Eggs</td>
+                <td class='cell'>Dairy</td>
             </tr>
         </table>
         <div class='filterTitle'>SORT BY</div>
-        <table style="width:100%">
+        <table id='sortTable' style="width:100%">
             <tr>
-                <th class='cell'>Popularity</th>
-                <th class='cell'>Price</th>
+                <td class='cell'>Price</td>
+                <td class='cell'>Popularity</td>
             </tr>
         </table>
         <div id="buttonDiv"> <button id='filterSearchButton'>Search</button>
