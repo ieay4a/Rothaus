@@ -283,3 +283,8 @@ header {
     font-family: Roboto;
     padding: 50px;
 }
+
+#image:hover {
+    background-color: #D3D3D3;
+    cursor: pointer;
+}
