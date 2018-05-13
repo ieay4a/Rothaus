@@ -1,9 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Rothaus</title>
-  </head>
-  <body>
-    <h1>Hello we are Rothaus</h1>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Capital Game!</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<!--
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+-->
+    <script src="./main.js"></script>
+    <header>
+        <div class='logo'>
+            <i class='fas fa-home'></i> Rothaus
+        </div>
+    </header>
+    <div id='search'>
+        <input id='searchinput' type='text' placeholder='Search for product'>
+        <div id='searchButton'>
+            <i class='fas fa-search'></i>
+        </div>
+    </div>
+
+    <div id='advanced' style="display: flex; justify-content: flex-end">
+        <button id='barcodeButton'>
+		<span>Barcode Search </span>
+		 <i class='fas fa-angle-down'></i>
+	</button>
+        <button id='filterButton'>
+		<span>Filter Search </span>
+		 <i class='fas fa-angle-down'></i>
+	</button>
+    </div>
+    <div id='barcodePanel'>
+        <div id='closeBarcode' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
+        <div id='barcodeInstruction'>Please enter the barcode number</div>
+        <div><input id='barcodeInput' type='text' placeholder='123456789'></div>
+        <button id='barcodeSearchButton'>Search</button>
+    </div>
+
+    <div id='filterPanel'>
+        <div id='closeFilter' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
+        <div class="category" style="width:100%">
+            <select>
+		<option>Meat</option>
+		<option>Seafood</option>
+		<option>Diary</option>
+		<option>Processed</option>
+		<option>Snack</option>
+		<option>Frozen</option>
+	</select>
+        </div>
+
+        <div class='filterTitle'>EXCLUDE</div>
+        <table style="width:100%">
+            <tr>
+                <th class='cell'>Meat</th>
+                <th class='cell'>Fish/Seafood</th>
+                <th class='cell'>Eggs</th>
+                <th class='cell'>Dairy</th>
+            </tr>
+        </table>
+        <div class='filterTitle'>SORT BY</div>
+        <table style="width:100%">
+            <tr>
+                <th class='cell'>Popularity</th>
+                <th class='cell'>Price</th>
+            </tr>
+        </table>
+        <div id="buttonDiv"> <button id='filterSearchButton'>Search</button>
+        </div>
+    </div>
+
+    <ul id='resultlist'>
+        <li>
+            <div class='productname'>Product Name</div>
+            <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
+            <div class='productdesc'>
+                <p>blah blah blah</p>
+            </div>
+            <div>
+                <span class='productcontains'>
+				pig icons?
+			</span>
+                <span class='productprice'>
+			1,000 KRW
+			</span>
+            </div>
+        </li>
+        <li>
+            product 2
+        </li>
+    </ul>
+</body>
 </html>
