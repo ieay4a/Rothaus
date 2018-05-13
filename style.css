@@ -24,6 +24,7 @@ header {
     margin: auto;
     border-radius: 3px;
     padding: 0.5rem;
+    background-color: white;
 }
 
 #searchinput {
@@ -186,20 +187,33 @@ header {
     font-size: large;
 }
 
+#product {
+  background-color: white;
+  margin-top: 3rem;
+}
+.producthead {
+  width: 100%;
+  overflow: hidden;
+}
+.producthead img {
+  width: 30%;
+}
+.producthead>div {
+  float: right;
+  width: 70%;
+}
+
 
 #comments {
   position: relative;
 }
-
 #comments .inputbox {
   margin-right: 3rem;
 }
-
 #comments textarea {
   width: 100%;
   height: 3rem;
 }
-
 #comments .button {
   position: absolute;
   right: 0;
@@ -207,23 +221,21 @@ header {
   height: 3rem;
   background-color: crimson;
   color: white;
+  box-sizing: border-box;
 }
 
 #commentlist {
   padding-left: 0.5rem;
 }
-
 #commentlist ul {
   margin-left: 1.5rem;
   border-left: 0.25rem solid lightgrey;
   padding-left: 1.5rem;
 }
-
 #commentlist li {
   list-style-type: none;
   overflow: hidden;
 }
-
 #commentlist .avatar {
   width: 2.5rem;
   height: 100%;

@@ -14,23 +14,75 @@
 </header>
 
 <div id='search'>
-  <div id='searchbar'>
-    <input id='searchinput' type='text' placeholder='Search for product'>
-  </div>
-  <div id='searchbutton'>
+  <input id='searchinput' type='text' placeholder='Search for product'>
+  <div id='searchButton'>
     <i class='fas fa-search'></i>
   </div>
 </div>
 
-<div id='result'>
+<div id="advanced" style="display: flex; justify-content: flex-end">
+  <button id="barcodeButton">
+    <span>Barcode Search </span>
+    <i class="fas fa-angle-down"></i>
+  </button>
+  <button id="filterButton">
+    <span>Filter Search </span>
+    <i class="fas fa-angle-down"></i>
+  </button>
+</div>
+
+<div id="barcodePanel">
+  <div id="closeBarcode" style="display: flex; justify-content: flex-end">
+    <span class="closeText">close <i class="fas fa-angle-up"></i></span>
+  </div>
+  <div>Please enter the barcode number</div>
+  <input id="barcodeInput" type="text" placeholder="123456789">
+  <button id="barcodeSearchButton">Search</button>
+</div>
+
+<div id='filterPanel'>
+  <div id='closeFilter' style="padding: 0.25rem; text-align: right;">
+  close <i class='fas fa-angle-up'></i>
+  </div>
+  <div class="category">
+            <select>
+		<option>Meat</option>
+		<option>Seafood</option>
+		<option>Diary</option>
+		<option>Processed</option>
+		<option>Snack</option>
+		<option>Frozen</option>
+	</select>
+        </div>
+        <div class='filterTitle'>EXCLUDE</div>
+        <table id='excludeTable' style="width:100%">
+            <tr>
+                <td class='cell'>Meat</td>
+                <td class='cell'>Fish/Seafood</td>
+                <td class='cell'>Eggs</td>
+                <td class='cell'>Dairy</td>
+            </tr>
+        </table>
+        <div class='filterTitle'>SORT BY</div>
+        <table id='sortTable' style="width:100%">
+            <tr>
+                <td class='cell'>Price</td>
+                <td class='cell'>Popularity</td>
+            </tr>
+        </table>
+        <div id="buttonDiv"> <button id='filterSearchButton'>Search</button>
+  </div>
+</div>
+
+<div id='product'>
   <div class='producthead'>
     <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/87/176/120078687_0.jpg'>
     <div>
-      <div id='productname'>Product 1</div>
-      <span id='contains'>
+      <div class='productname'>Product 1</div>
+      <span class='contains'>
 				[pork] [beef]
 			</span>
-      <span id='price'>950 KRW</span>
+      <span class='price'>950 KRW</span>
     </div>
   </div>
 
