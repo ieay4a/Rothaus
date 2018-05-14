@@ -188,19 +188,26 @@ header {
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
-
-#resultlist {
-    font-family: Roboto;
-    padding: 0;
-    margin-top: 3rem;
+label {
+	display: block;
 }
 
-#resultlist li {
-    font-family: Roboto;
-    display: block;
-    background-color: white;
-    margin: 1rem 0;
-    padding: 0.5rem;
+.list {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.list li {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.list li:hover {
+  background-color: crimson;
+}
+.list img {
+  width: 100%;
 }
 
 .productname {
