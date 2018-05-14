@@ -13,10 +13,6 @@
 </head>
 
 <body>
-    <!--
-    <script src="jquery/js/jquery-1.9.0.min.js"></script>
-    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
--->
     <script src="./main.js"></script>
     <header>
         <div class='logo'>
@@ -47,81 +43,88 @@
         <button id='barcodeSearchButton'>Search</button>
     </div>
 
-<form id='filterPanel'>
-	<div id='closeFilter'>close <i class='fas fa-angle-up'></i></div>
-	<label for='category'>Category</label>
-	<select id='category'>
-		<option value='' selected>None</option>
-		<option value='diary'>Diary</option>
-		<option value='frozen'>Frozen</option>
-		<option value='processed'>Processed</option>
-		<option value='snack'>Snack</option>
-		<option value='drink'>Drink</option>
+    <div id='filterPanel'>
+        <div id='closeFilter' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
+        <div class="category" style="width:100%">
+            <select>
+		<option>Meat</option>
+		<option>Seafood</option>
+		<option>Diary</option>
+		<option>Processed</option>
+		<option>Snack</option>
+		<option>Frozen</option>
 	</select>
-	
-	<label>Exclude</label>
-	<label for='beef'>Beef</label>
-	<input name='exclude' id='beef' type='checkbox'>
-	<label for='pork'>Pork</label>
-	<input name='exclude' id='pork' type='checkbox'>
-	<label for='chicken'>Chicken</label>
-	<input name='exclude' id='chicken' type='checkbox'>
-	<label for='seafood'>Seafood</label>
-	<input name='exclude' id='seafood' type='checkbox'>
-	<label for='diary'>Diary</label>
-	<input name='exclude' id='diary' type='checkbox'>
-	<label for='egg'>Egg</label>
-	<input name='exclude' id='egg' type='checkbox'>
-	
-	<label>Sort by:</label>
-	<label for='none'>None</label>
-	<input name='sort' id='none' type='radio' checked>
-	<label for='byprice'>Price</label>
-	<input name='sort' id='byprice' type='radio'>
-</form>
-<div class='list'>
-  <h3>Search Results</h3>
-  <ul id='resultlist'>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-  </ul>
-</div>
+        </div>
+        <div class='filterTitle'>EXCLUDE</div>
+        <table id='excludeTable' style="width:100%">
+            <tr>
+                <td class='cell'>Meat</td>
+                <td class='cell'>Fish/Seafood</td>
+                <td class='cell'>Eggs</td>
+                <td class='cell'>Dairy</td>
+            </tr>
+        </table>
+        <div class='filterTitle'>SORT BY</div>
+        <table id='sortTable' style="width:100%">
+            <tr>
+                <td class='cell'>Price</td>
+                <td class='cell'>Popularity</td>
+            </tr>
+        </table>
+        <div id="buttonDiv"> <button id='filterSearchButton'>Search</button>
+        </div>
+    </div>
 
-<div class='list'>
-  <h3>Trending Products</h3>
-  <ul id='trendinglist'>
-    <li></li>
-  </ul>
-</div>
 
-<div class='list'>
-  <h3>New Products</h3>
-  <ul id='newlist'>
-    <li></li>
-  </ul>
-</div>
+    <table class='mainPageCard'>
+        <tr class='cardTitle'>
+            <td>Trending Products</td>
+        </tr>
+        <tr>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/69/320/000043869_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/82/320/120074582_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/76/320/000043176_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/68/320/102008468_0.jpg' style="width:200px;height:200px;"></td>
+        </tr>
+        <tr id='nameAllignment'>
+            <td>Paldo Bibim-myeon</td>
+            <td>Nongshim Anseongtang</td>
+            <td>Tangjeong Cheongjeongwon</td>
+            <td>Ottogi</td>
+        </tr>
+    </table>
+
+    <table class='mainPageCard'>
+        <tr class='cardTitle'>
+            <td>New Products</td>
+        </tr>
+        <tr>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/42/320/000049042_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/79/320/123421979_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/30/320/125369030_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/64/320/103420964_0.jpg' style="width:200px;height:200px;"></td>
+        </tr>
+        <tr id='nameAllignment'>
+            <td>A Floating Wild Whelk</td>
+            <td>Cheongsoo Water Cold Noodles</td>
+            <td>Chicky Chewy and Refreshing</td>
+            <td>Ottomer Gongmyeon</td>
+        </tr>
+    </table>
+
+    <table class='mainPageCard'>
+        <tr class='cardTitle'>
+            <td>Search Results</td>
+        </tr>
+        <tr>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/69/320/000043869_0.jpg' style="width:200px;height:200px;"></td>
+            <td class='cardImage'><img src='http://image.homeplus.co.kr/UserFiles/Pressimages/82/320/120074582_0.jpg' style="width:200px;height:200px;"></td>
+        </tr>
+        <tr id='nameAllignment'>
+            <td>Paldo Bibim-myeon</td>
+            <td>Nongshim Anseongtang</td>
+        </tr>
+    </table>
 
 </body>
 </html>

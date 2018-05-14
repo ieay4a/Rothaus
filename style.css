@@ -33,7 +33,7 @@ header {
 
 #searchinput {
     border: none;
-    width: 90%;
+    width: 100%;
     background-color: transparent;
     position: absolute;
     top: 50%;
@@ -80,6 +80,8 @@ header {
     border-radius: 3px;
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
     padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .closeText {
@@ -187,26 +189,18 @@ header {
     cursor: pointer;
 }
 
-label {
-	display: block;
+#resultlist {
+    font-family: Roboto;
+    padding: 0;
+    margin-top: 3rem;
 }
 
-.list {
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.list li {
-  display: inline-block;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  cursor: pointer;
-}
-.list li:hover {
-  background-color: crimson;
-}
-.list img {
-  width: 100%;
+#resultlist li {
+    font-family: Roboto;
+    display: block;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem;
 }
 
 .productname {
@@ -230,7 +224,6 @@ label {
   float: right;
   width: 70%;
 }
-
 
 #comments {
   position: relative;
@@ -274,25 +267,29 @@ label {
   float: left;
 }
 
-#mainPage {
+.mainPageCard {
     width: 100%;
     height: auto;
     background-color: white;
-    padding: 20px;
+    padding: 1rem;
     margin-top: 3rem;
     text-align: center;
     font-family: Roboto;
 }
 
-#trending {
+.cardTitle {
     text-align: left;
     font-size: 20px;
     font-weight: bold;
     font-family: Roboto;
-    padding: 50px;
+    padding: 0.5rem;
 }
 
-#image:hover {
-    background-color: #D3D3D3;
+.cardImage:hover {
+    background-color: #f4f4f4;
     cursor: pointer;
+}
+
+#closeBarcode {
+    color: #FF5555;
 }
