@@ -13,13 +13,13 @@ $(() => {
     var resultlist = $('#resultlist');
     var trendinglist = $('#trendinglist');
     var newlist = $('#newlist');
-    resultlist.parent().hide();
+    resultlist.parent().parent().hide();
 
     //How to revert to suggenstions??
     function updateSearch () {
-        resultlist.parent().show();
-        trendinglist.parent().hide();
-        newlist.parent().hide();
+        resultlist.parent().parent().show();
+        trendinglist.parent().parent().hide();
+        newlist.parent().parent().hide();
         resultlist.empty();
 
         results = Object.keys(products).filter (pid =>
