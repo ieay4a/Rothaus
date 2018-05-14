@@ -10,6 +10,9 @@ header {
     padding: 0.5rem;
     font-family: Roboto;
 }
+ul {
+    padding: 0;
+}
 
 .logo {
     display: block;
@@ -207,11 +210,23 @@ header {
     margin: 0.5rem 0;
     padding: 0.5rem;
     box-sizing: border-box;
-    width: 100%;
     overflow: hidden;
 }
 .list li:hover {
     background-color: #FF5555;
+}
+.list a {
+    text-decoration: none;
+    color: black;
+}
+.list a:hover {
+    color: white;
+}
+@media (max-width: 500px) {
+    #mainPageCard, .list, .list ul, .list li, .list a, .list img {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
 .productname {

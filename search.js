@@ -9,6 +9,9 @@ $(() => {
     $('#searchButton').click (updateSearch);
     searchinput.change (updateSearch);
 
+    searchinput.autocomplete({
+        source: products.map(product => product.name)
+    });
 
     var resultlist = $('#resultlist');
     var trendinglist = $('#trendinglist');
@@ -25,9 +28,13 @@ $(() => {
         results = Object.keys(products).filter (pid =>
             ! products[pid].contains.some (ing => $("#"+ing).prop("checked"))
         );
+        var query = searchinput.val();
+        if (query)
+            results = results.filter (pid => products[pid].name.indexOf(query) >= 0);
         if ($('#byprice').prop("checked"))
             results.sort((a,b) => products[a].price - products[b].price);
-        resultlist.append(results.map(pid_to_product));
+        if (! results.length) resultlist.text("No results")
+        else resultlist.append(results.map(pid_to_product));
     }
 
     trendings = [1, 3, 5];

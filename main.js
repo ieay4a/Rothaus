@@ -61,18 +61,17 @@ $(document).ready(function () {
     }
     document.addEventListener("click", closeAllSelect);
     barcodePanel.hide();
-    $('#barcodeButton').click(function () {
+    $('#barcodeButton, #closeBarcode').click(function () {
         filterPanel.hide();
         barcodePanel.toggle();
     });
 
     var filterPanel = $('#filterPanel');
     filterPanel.hide();
-    $('#filterButton').click(function () {
+    $('#filterButton, #closeFilter').click(function () {
         barcodePanel.hide();
         filterPanel.toggle();
     });
-
 
 
 
