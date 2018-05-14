@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Rothaus</title>
-    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-	    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-	    crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
-	    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
-	    crossorigin="anonymous"></script>
     <link href="./style.css" rel="stylesheet" />
-    <script src="./main.js"></script>
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+ 	    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+ 	    crossorigin="anonymous"></script>
+     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+ 	    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+ 	    crossorigin="anonymous"></script>
++    <link href="./style.css" rel="stylesheet" />
+    <script src="./data.js"></script>
+     <script src="./main.js"></script>
 </head>
 
 <body>
@@ -46,65 +48,72 @@
         <button id='barcodeSearchButton'>Search</button>
     </div>
 
-<form id='filterPanel'>
-	<div id='closeFilter'>close <i class='fas fa-angle-up'></i></div>
-	<label for='category'>Category</label>
-	<select id='category'>
-		<option value='' selected>None</option>
-		<option value='diary'>Diary</option>
-		<option value='frozen'>Frozen</option>
-		<option value='processed'>Processed</option>
-		<option value='snack'>Snack</option>
-		<option value='drink'>Drink</option>
-	</select>
-	
-	<label>Exclude</label>
-	<label for='beef'>Beef</label>
-	<input name='exclude' id='beef' type='checkbox'>
-	<label for='pork'>Pork</label>
-	<input name='exclude' id='pork' type='checkbox'>
-	<label for='chicken'>Chicken</label>
-	<input name='exclude' id='chicken' type='checkbox'>
-	<label for='seafood'>Seafood</label>
-	<input name='exclude' id='seafood' type='checkbox'>
-	<label for='diary'>Diary</label>
-	<input name='exclude' id='diary' type='checkbox'>
-	<label for='egg'>Egg</label>
-	<input name='exclude' id='egg' type='checkbox'>
-	
-	<label>Sort by:</label>
-	<label for='none'>None</label>
-	<input name='sort' id='none' type='radio' checked>
-	<label for='byprice'>Price</label>
-	<input name='sort' id='byprice' type='radio'>
-</form>
+    <div id='filterPanel'>
+        <div id='closeFilter' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
+        <form id='filter'>
+            <div class="customSelect">
+                <select id='category'>
+                <option value='' selected>Category</option>
+                <option value='dairy'>Dairy</option>
+                <option value='frozen'>Frozen</option>
+                <option value='processed'>Processed</option>
+                <option value='snack'>Snack</option>
+                <option value='drink'>Drink</option>
+                </select>
+            </div>
+
+            <div class="panelTitle">
+                <label>Exclude</label>
+            </div>
+            <div class="selections">
+                <label for='beef' class="container">Beef
+                    <input type="checkbox" name='exclude' id='beef'>
+                    <span class="checkmark"></span>                
+                </label>
+                <label for='pork' class="container">Pork
+                    <input type="checkbox" name='exclude' id='pork'>
+                    <span class="checkmark"></span>                
+                </label>
+                <label for='chicken' class="container">Chicken
+                <input type="checkbox" name='exclude' id='chicken'>
+                    <span class="checkmark"></span>                
+                </label>
+                <label for='seafood' class="container">Seafood
+                    <input type="checkbox" name='exclude' id='seafood'>
+                    <span class="checkmark"></span>                
+                </label>
+                <label for='diary' class="container">Dairy
+                    <input type="checkbox" name='exclude' id='dairy'>
+                    <span class="checkmark"></span>                
+                </label>
+                <label for='egg' class="container">Egg
+                    <input type="checkbox" name='exclude' id='egg'>
+                    <span class="checkmark"></span>                
+                </label>
+            </div>
+            <div class="panelTitle">
+                <label>Sort by</label>
+            </div>
+            <div class="selections">
+                <label for='none' class="container">None
+                    <input name='sort' id='none' type='radio' checked>
+                    <span class="radiomark"></span>  
+                </label>
+
+                <label for='byprice' class="container">Price
+                    <input name='sort' id='byprice' type='radio'>
+                    <span class="radiomark"></span>  
+                </label>
+            </div>
+        </form>
+        <div id="buttonDiv"> <button id='filterSearchButton'>Search</button>
+        </div>
+    </div>
+
+
 <div class='list'>
   <h3>Search Results</h3>
   <ul id='resultlist'>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
-    <li>
-      <img src='http://image.homeplus.co.kr/UserFiles/Pressimages/50/176/111457450_0.jpg'>
-      <div class='productname'>Prod Name 1</div>
-      <span class='contains'>diary</span>
-      <span class='price'>1000 KRW</span>
-    </li>
   </ul>
 </div>
 
