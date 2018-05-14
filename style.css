@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: #F6F6F6;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -29,6 +29,7 @@ header {
     border-radius: 3px;
     padding: 0.5rem;
     background-color: white;
+    
 }
 
 #searchinput {
@@ -39,6 +40,7 @@ header {
     top: 50%;
     transform: translateY(-50%);
     font-family: Roboto;
+    font-size: 16px;
 }
 
 #searchButton {
@@ -280,14 +282,11 @@ header {
     float: left;
 }
 
-.mainPageCard {
+.mainPageTable {
     width: 100%;
     height: auto;
     background-color: white;
-    padding: 1rem;
-    margin-top: 3rem;
     text-align: center;
-    font-family: Roboto;
 }
 
 .cardTitle {
@@ -480,4 +479,14 @@ header {
 
 .container input:checked ~ .radiomark:after {
     display: block;
+}
+
+.mainPageCard {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-family: Roboto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
