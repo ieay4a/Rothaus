@@ -11,6 +11,7 @@ comments: [
     reply: [ {username: "Herbert", content: "I agree with you, had the same experience with this product!", 
 	reply: [ {username: "Sarah", content: "I would also add that the price is very good for this portion!"} ] } ]
 } ],
+	barcode: 8801987361720,
 };
 products[1] = {
 name:"Domestic Black bean Sun-shik(Bong)",
@@ -23,6 +24,7 @@ contains: [],
     content: "This is a bigger portion, you can eat it with your friends.",
     reply: [ {username: "Sandra", content: "Thanks to your comment, I shared it with my friends. Great!" } ]
 } ],
+	barcode: 88092817263810,
 };
 products[2] = {
 name:"Nongshim Anseongtang",
@@ -35,6 +37,7 @@ contains: ["diary", "pork", "egg", "chicken", "beef"],
     content: "I did not know, that the ingredients are from different countries.. nice information.",
     reply: [ {username: "Andrea", content: "Now that you mention it... true!"} ]
 } ],
+	barcode: 8808754371820,
 };
 products[3] = {
 name:"Tangjeong Cheongjeongwon rice mushroom soup",
@@ -48,6 +51,7 @@ contains: ["diary", "beef"],
     reply: [ {username: "Tim", content: "Yeah, that's how I like it.", 
 	reply: [ {username: "Caroline", content: "For this price I really expected nothing, but yeah... its good!"} ] } ]
 } ],
+	barcode: 8801982737162,
 };
 products[4] = {
 name:"Ottogi",
@@ -58,6 +62,7 @@ contains: [],
   comments: [
   { username: "Richard",
     content: "Some good rice."} ],
+	barcode: 8801975371239,
 };
 products[5] = {
 name:"A floating wild whelk",
@@ -71,6 +76,7 @@ comments: [
     reply: [ {username: "Ahmed", content: "For me it was okay, but nothing special.", 
 	reply: [ {username: "Cristiano", content: "I'll give it a try tomorrow."} ] } ]
 } ],
+	barcode: 8801928376481,
 };
 products[6] = {
 name:"Nongshim   Nest naengmyeon bibim naengmyeon",
@@ -84,6 +90,7 @@ comments: [
     reply: [ {username: "Lisa", content: "Don't forget about the taste. I liked it.", 
 	reply: [ {username: "Cassandra", content: "I agree with Lisa."} ] } ]
 } ],
+	barcode: 8801874317289,
 };
 products[7] = {
 name:"Cheongsoo water cold noodles",
@@ -96,6 +103,7 @@ contains: ["beef"],
     content: "I was first sceptical because of the word cold in front of noodles, but... it was acceptable!",
     reply: [ {username: "Lara", content: "For this price, very suitable!" } ]
 } ],
+	barcode: 8801837283489,
 };
 products[8] = {
 name:"Chicky chewy and refreshing",
@@ -109,6 +117,7 @@ comments: [
     reply: [ {username: "Ryan", content: "Lol, for me not really refreshing.. but was still tasty.", 
 	reply: [ {username: "Andrine", content: "I would recommend!"} ] } ]
 } ],
+	barcode: 8801937481732,
 };
 products[9] = {
 name:"Ottomer Gongmyeon",
@@ -122,4 +131,5 @@ contains: ["beef", "diary"],
     reply: [ {username: "Hillary", content: "I enjoyed it!", 
 	reply: [ {username: "Malcolm", content: "My friends did not like this product, but for me it was quiet tasty. I think it differs on person!"} ] } ]
 } ],
+	barcode: 8801873748193,
 };
