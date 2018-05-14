@@ -5,7 +5,7 @@ var sortMethod;
 var tds;
 var sortTds;
 $(document).ready(function () {
-    $('#category).selectmenu();
+    $('#category').selectmenu();
     $('input[type=checkbox]').checkboxradio();
     $('input[type=radio]').checkboxradio();
     
