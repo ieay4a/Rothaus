@@ -5,6 +5,10 @@ var sortMethod;
 var tds;
 var sortTds;
 $(document).ready(function () {
+    $('#category).selectmenu();
+    $('input[type=checkbox]').checkboxradio();
+    $('input[type=radio]').checkboxradio();
+    
     var barcodePanel = $('#barcodePanel');
     excludeTable = document.getElementById('excludeTable');
     sortTable = document.getElementById('sortTable');
