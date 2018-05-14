@@ -257,6 +257,7 @@ header {
     background-color: #FF5555;
     color: white;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 #commentlist {

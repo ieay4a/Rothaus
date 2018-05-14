@@ -49,4 +49,11 @@ $(() => {
 		$('<span class="price">').text(p.price + " KRW")
 	));
     }
+
+
+    $("#barcodeSearchButton").click (() => {
+        var barcode = parseInt($("#barcodeInput").val());
+        var pid = Object.keys(products).find (pid => products[pid].barcode == barcode);
+        window.location.href = 'product.html?productid=' + pid;
+    });
 });

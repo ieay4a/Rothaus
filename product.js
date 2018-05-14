@@ -25,15 +25,35 @@ function updateComment () {
   );
 }
 function processComment (comment) {
+  var button = $("<button>");
   return $('<li>').append(
     $("<div class='avatar'>").append ("<i class='fas fa-user-circle'>"),
     $("<div>").append(
       $("<div class='username'>").text(comment.username),
       $("<div class='content'>").text(comment.content),
-      $("<button>").text("Reply")
+      button.click(() => {
+        var textarea = $("<textarea placeholder='Leave your reply here'>");
+        button.after($("<div>").append(
+          $("<div class='button'><i class='fas fa-reply'></i></div>").click(()=>{
+            if (! comment.reply) comment.reply = [];
+            comment.reply.unshift({username:"Jean-Pierre", content: textarea.val()});
+            updateComment();
+          }),
+          $("<div class='inputbox'>").append(textarea)
+        ));
+        button.remove();
+      }).text("Reply")
     ),
     $("<ul>").append(comment.reply && comment.reply.map (processComment) )
   );
 }
+
+$("#comments > .button").click(() => {
+  product.comments.unshift({
+    username: "Jean-Pierre",
+    content: $("#comments > .inputbox > textarea").val(),
+  });
+  updateComment();
+});
 
 });
