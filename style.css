@@ -218,6 +218,9 @@ header {
     background-color: white;
     margin-top: 3rem;
     padding: 1rem;
+    font-family: Roboto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .producthead {
@@ -257,7 +260,6 @@ header {
     background-color: #FF5555;
     color: white;
     box-sizing: border-box;
-    cursor: pointer;
 }
 
 #commentlist {
