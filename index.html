@@ -3,21 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Rothaus</title>
     <link href="./style.css" rel="stylesheet" />
     <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
- 	    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
- 	    crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
- 	    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
- 	    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    +
     <link href="./style.css" rel="stylesheet" />
     <script src="./data.js"></script>
-    <script src="./search.js"></script>
     <script src="./main.js"></script>
 </head>
 
@@ -69,29 +63,29 @@
                 <label>Exclude</label>
             </div>
             <div class="selections">
-                <label for='beef' class="container">Beef
-                    <input type="checkbox" name='exclude' id='beef'>
-                    <span class="checkmark"></span>                
+                <label for='beef' class="container">
+                    <input type="checkbox" name='exclude' id='beef' class="regular-checkbox">Beef
+<!--                    <span class="checkmark"></span>                -->
                 </label>
                 <label for='pork' class="container">Pork
-                    <input type="checkbox" name='exclude' id='pork'>
-                    <span class="checkmark"></span>                
+                    <input type="checkbox" name='exclude' id='pork' class="regular-checkbox">
+<!--                    <span class="checkmark"></span>                -->
                 </label>
                 <label for='chicken' class="container">Chicken
-                <input type="checkbox" name='exclude' id='chicken'>
-                    <span class="checkmark"></span>                
+                <input type="checkbox" name='exclude' id='chicken' class="regular-checkbox">
+<!--                    <span class="checkmark"></span>                -->
                 </label>
                 <label for='seafood' class="container">Seafood
-                    <input type="checkbox" name='exclude' id='seafood'>
-                    <span class="checkmark"></span>                
+                    <input type="checkbox" name='exclude' id='seafood' class="regular-checkbox">
+<!--                    <span class="checkmark"></span>                -->
                 </label>
                 <label for='diary' class="container">Dairy
-                    <input type="checkbox" name='exclude' id='dairy'>
-                    <span class="checkmark"></span>                
+                    <input type="checkbox" name='exclude' id='dairy' class="regular-checkbox">
+<!--                    <span class="checkmark"></span>                -->
                 </label>
                 <label for='egg' class="container">Egg
-                    <input type="checkbox" name='exclude' id='egg'>
-                    <span class="checkmark"></span>                
+                    <input type="checkbox" name='exclude' id='egg' class="regular-checkbox">
+<!--                    <span class="checkmark"></span>                -->
                 </label>
             </div>
             <div class="panelTitle">
@@ -99,13 +93,13 @@
             </div>
             <div class="selections">
                 <label for='none' class="container">None
-                    <input name='sort' id='none' type='radio' checked>
-                    <span class="radiomark"></span>  
+                    <input name='sort' id='none' type='radio' checked class="regular-radio">
+<!--                    <span class="radiomark"></span>  -->
                 </label>
 
                 <label for='byprice' class="container">Price
-                    <input name='sort' id='byprice' type='radio'>
-                    <span class="radiomark"></span>  
+                    <input name='sort' id='byprice' type='radio' class="regular-radio">
+<!--                    <span class="radiomark"></span>  -->
                 </label>
             </div>
         </form>
@@ -113,26 +107,32 @@
         </div>
     </div>
 
+    <div class="mainPageCard">
+        <div class='list'>
+            <h3>Search Results</h3>
+            <ul id='resultlist'>
+            </ul>
+        </div>
+    </div>
 
-<div class='list'>
-  <h3>Search Results</h3>
-  <ul id='resultlist'>
-  </ul>
-</div>
+    <div class="mainPageCard">
+        <div class='list'>
+            <h3>Trending Products</h3>
+            <ul id='trendinglist'>
+                <li></li>
+            </ul>
+        </div>
+    </div>
 
-<div class='list'>
-  <h3>Trending Products</h3>
-  <ul id='trendinglist'>
-    <li></li>
-  </ul>
-</div>
-
-<div class='list'>
-  <h3>New Products</h3>
-  <ul id='newlist'>
-    <li></li>
-  </ul>
-</div>
+    <div class="mainPageCard">
+        <div class='list'>
+            <h3>New Products</h3>
+            <ul id='newlist'>
+                <li></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
+
 </html>
