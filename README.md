@@ -5,3 +5,5 @@ index.html: html structure of the main page
 style.css: css elements of the whole website all together
 product.js: javacript code of the individual product page
 product.html: html sturcture of the product page
+search.js: for the search function
+data.js: the data of the products collected from HomePlus website
