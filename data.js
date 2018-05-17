@@ -11,7 +11,7 @@ comments: [
     reply: [ {username: "Herbert", content: "I agree with you, had the same experience with this product!", 
 	reply: [ {username: "Sarah", content: "I would also add that the price is very good for this portion!"} ] } ]
 } ],
-	barcode: 8801987361720,
+	barcode: 8801128503051,
 };
 products[1] = {
 name:"Domestic Black bean Sun-shik(Bong)",

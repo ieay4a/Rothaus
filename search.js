@@ -63,4 +63,20 @@ $(() => {
         var pid = Object.keys(products).find (pid => products[pid].barcode == barcode);
         window.location.href = 'product.html?productid=' + pid;
     });
+
+    $("#barcodeUpload").change(e => {
+        var inst = $("#barcodeInstruction").text("Decoding...Please wait");
+        if (e.target.files && e.target.files.length) {
+            Quagga.decodeSingle ({
+                decoder: {readers: ["ean_reader"]},
+                locate: true,
+                src: URL.createObjectURL(e.target.files[0]),
+            }, function (result) {
+                inst.text("Is the following correct?");
+                $("#barcodeInput").val(result.codeResult.code);
+                $("#barcodeSearchButton").text("Yes, Search with This")
+                .after($("<div>").text("If no, please take your photo again, with more care."));
+            });
+        }
+    });
 });

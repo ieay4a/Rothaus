@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script src="./lib/quagga.min.js"></script>
 
     <link href="./style.css" rel="stylesheet" />
     <script src="./data.js"></script>
@@ -19,9 +20,9 @@
 
 <body>
     <header>
-        <div class='logo'>
+        <a href='index.html' class='logo'>
             <i class='fas fa-home'></i> Rothaus
-        </div>
+        </a>
     </header>
     <div id='search'>
         <input id='searchinput' type='text' placeholder='Search for product'>
@@ -42,7 +43,9 @@
     </div>
     <div id='barcodePanel'>
         <div id='closeBarcode' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
-        <div id='barcodeInstruction'>Please enter the barcode number</div>
+        <div>Please take a photo of your barcode</div>
+        <div><input id='barcodeUpload' type="file" accept="image/*" capture="camera"/></div>
+        <div id='barcodeInstruction'>...or enter the barcode number</div>
         <div><input id='barcodeInput' type='text' placeholder='123456789'></div>
         <button id='barcodeSearchButton'>Search</button>
     </div>
