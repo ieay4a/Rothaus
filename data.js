@@ -119,6 +119,7 @@ comments: [
 } ],
 	barcode: 8801937481732,
 };
+
 products[9] = {
 name:"Ottomer Gongmyeon",
 img:"http://image.homeplus.co.kr/UserFiles/Pressimages/64/320/103420964_0.jpg",
@@ -132,4 +133,18 @@ contains: ["beef", "diary"],
 	reply: [ {username: "Malcolm", content: "My friends did not like this product, but for me it was quiet tasty. I think it differs on person!"} ] } ]
 } ],
 	barcode: 8801873748193,
+};
+products[10] = {
+name:"Lotte Sand",
+img:"http://image.homeplus.co.kr/UserFiles/Pressimages/44/320/126114244_0.jpg",
+price: 1120,
+ingredients: ["Wheat flour (wheat)", "white sugar", "palm oil (from Malaysia)", "other sugar (raw sugar", "corn starch)", "shortening I (partially hydrogenated oil)", "cocoa powder", "shortening II", "powder", "crystalline glucose", "lactose", "processed cereal", "cocoa mass ", "Mixed preparations (modified starch", "maltodextrin)", "dextrin", "cell powder Gold I", "acidity regulator", "whey powder", "starch processed product", "refined salt", "lecithin", "synthetic flavoring (vanillin)"],
+contains: ["diary"],
+  comments: [
+  { username: "Brad",
+    content: "Why is it called sand?",
+    reply: [ {username: "Ashley", content: "It tastes like sand!", 
+	reply: [ {username: "Malcolm", content: "How do you know? Have you ever tasted sand?"} ] } ]
+} ],
+	barcode: 8801062521487,
 };
