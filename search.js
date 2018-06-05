@@ -90,8 +90,8 @@ $(() => {
         }
     });
 
-    $("#barcodeInput").change(()=>{
-        if ($("#barcodeInput").val().length == 13)
+    $("#barcodeInput").on('input',()=>{
+        if ($("#barcodeInput").val().length != 13)
             $("#barcodeSearchButton").addClass("greyout");
         else $("#barcodeSearchButton").removeClass("greyout");
     });
