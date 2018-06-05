@@ -10,7 +10,10 @@ $(() => {
     searchinput.change (updateSearch);
 
     searchinput.autocomplete({
-        source: products.map(product => product.name)
+        source: products.map((product, i) => {return {value:product.name, pid:i};}),
+        select: function (e, ui) {
+            window.location.href = 'product.html?productid=' + ui.item.pid;
+        },
     });
 
     var resultlist = $('#resultlist');
@@ -59,24 +62,37 @@ $(() => {
 
 
     $("#barcodeSearchButton").click (() => {
-        var barcode = parseInt($("#barcodeInput").val());
+        var val = $("#barcodeInput").val();
+        if (val.length != 13) return;
+        var barcode = parseInt(val);
         var pid = Object.keys(products).find (pid => products[pid].barcode == barcode);
         window.location.href = 'product.html?productid=' + pid;
     });
 
     $("#barcodeUpload").change(e => {
         var inst = $("#barcodeInstruction").text("Decoding...Please wait");
+        var input = $("#barcodeInput").val("");
+
         if (e.target.files && e.target.files.length) {
             Quagga.decodeSingle ({
                 decoder: {readers: ["ean_reader"]},
                 locate: true,
                 src: URL.createObjectURL(e.target.files[0]),
             }, function (result) {
-                inst.text("Is the following correct?");
-                $("#barcodeInput").val(result.codeResult.code);
-                $("#barcodeSearchButton").text("Yes, Search with This")
-                .after($("<div>").text("If no, please take your photo again, with more care."));
+                if (! result.codeResult.code) {
+                    inst.html("<p>Sorry, we couldn't recognize your barcode.</p>\n" +
+                        "<p>Please take the photo again, or enter the number manually.</p>");
+                } else {
+                    input.val(result.codeResult.code);
+                    inst.text("Is the following correct?");
+                }
             });
         }
+    });
+
+    $("#barcodeInput").change(()=>{
+        if ($("#barcodeInput").val().length == 13)
+            $("#barcodeSearchButton").addClass("greyout");
+        else $("#barcodeSearchButton").removeClass("greyout");
     });
 });

@@ -45,13 +45,26 @@
     <i class="fas fa-angle-down"></i>
   </button>
     </div>
+
     <div id='barcodePanel'>
         <div id='closeBarcode' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
-        <div>Please take a photo of your barcode</div>
-        <div><input id='barcodeUpload' type="file" accept="image/*" capture="camera"/></div>
-        <div id='barcodeInstruction'>...or enter the barcode number</div>
-        <div><input id='barcodeInput' type='text' placeholder='880xxxxxxxxxx'></div>
-        <button id='barcodeSearchButton'>Search</button>
+
+        <h3><i class='fas fa-barcode'></i> Barcode Search</h3>
+
+        <div class="barcodeUploadWrapper">
+            <button><i class="fas fa-camera"></i> Take a Photo!</button>
+            <input id='barcodeUpload' type="file" accept="image/*" capture="camera"/>
+        </div>
+
+        <div id="barcodeInstruction"> or, enter the number in the barcode </div>
+
+        <div>
+            <input id='barcodeInput' type='text' placeholder='880xxxxxxxxxx'>
+        </div>
+
+        <button id='barcodeSearchButton' class='greyout'>
+            <i class="fas fa-search"></i> Search!
+        </button>
     </div>
 
     <div id='filterPanel'>
@@ -112,8 +125,7 @@
                 </label>
             </div>
         </form>
-        <div id="buttonDiv"> <button id='filterSearchButton'>Search</button>
-        </div>
+<!--    <div id="buttonDiv"> <button id='filterSearchButton'>Search</button></div>  -->
     </div>
 
 

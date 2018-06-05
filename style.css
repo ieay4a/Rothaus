@@ -59,7 +59,7 @@ ul {
     top: 50%;
     right: 0%;
     transform: translateY(-50%);
-
+    cursor: pointer;
 }
 
 #advanced {
@@ -94,7 +94,6 @@ ul {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 .closeText {
     margin: 0.25rem;
 }
@@ -104,19 +103,7 @@ ul {
 
     margin: 0.5rem;
 }
-
-#barcodeInput {
-    font-size: 18px;
-    width: 70%;
-    text-align: center;
-    border: 2px solid #FF5555;
-
-    border-radius: 4px;
-    padding: 0.5rem;
-    margin: 2rem;
-}
-
-#barcodeSearchButton {
+#barcodePanel button {
     background-color: #FF5555;
 
     border: none;
@@ -133,6 +120,34 @@ ul {
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+#barcodePanel button.greyout {
+    background-color: lightgrey;
+    cursor: default;
+}
+
+.barcodeUploadWrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+#barcodeUpload {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#barcodeInput {
+    border: 2px solid #FF5555;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 1.25rem;
+    width: 70%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 
 #filterButton {
     background-color: #FF5555;
@@ -578,18 +593,18 @@ ul {
 .regular-radio:checked {
 	background-color: #e9ecee;
 	color: #99a1a7;
-	border: 1px solid #adb8c0;
+	border: 1px solid red;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 .regular-radio:active, .regular-radio:checked:active {
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 }
-.ui-button,.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-button:hover {
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover, .ui-button:hover {
     border: none;
-    background: transparent;
     font-weight: normal;
     color: #ffffff;
+    background-color: #FF5555;
 }
 .ui-icon-background, .ui-state-active .ui-icon-background{
     border: #444444;

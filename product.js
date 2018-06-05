@@ -5,6 +5,7 @@ if (params.has("productid"))
   product = products[params.get("productid")];
 
 $(() => {
+if (! product) return;
 $("img").attr("src", product.img);
 $(".productname").text(product.name);
 $(".contains").append(
