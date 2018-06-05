@@ -148,3 +148,383 @@ contains: ["diary"],
 } ],
 	barcode: 8801062521487,
 };
+
+products[51] = {
+name:"Just drink Tea Milk Tea",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024309_JPG_500.jpg",
+price: 4500,
+ingredients: ["black powder (Chilean)","creamer (corn syrup solids)","hardened palm oil","Glycerin fatty acid ester","synthetic flavoring agent","green tea powder (Indian) ","theanine","sodium hydrogencarbonate","sodium disodium succinate","sodium salt"],
+contains: ["dairy"],
+comments:[],
+barcode: 4710784962789,
+};
+
+products[52] = {
+name:"VUCO COCONUT WATER",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10037169_JPG_500.jpg",
+price: 9990,
+ingredients: ["Coconut water","vitamin C"],
+contains: [],
+comments: [],
+barcode: 8809474570369,
+};
+
+products[53] = {
+name:"VUCO COCONUT MILK",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10037153_JPG_500.jpg",
+price: 2980,
+ingredients: ["Coconul Milk","Sugar","sucrose fatty acid ester","carrageenan","guar hum","natural coconut flabour","vitamin C"],
+contains: [],
+comments: [],	
+barcode: 8809474570420,
+};
+
+products[54] = {
+name:"Biborteni",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040419_JPG_500.jpg",
+price: 1000,
+ingredients: ["Carbonaed Water"],
+contains: [],
+  comments: [],
+	barcode: 5942210000942,
+};
+
+products[55] = {
+name:"Super chia coconut mango",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10039455_JPG_500.jpg",
+price: 1000,
+ingredients: ["Purified Water","Mango Juice","Coconut Water","Sugar","Citric Acid","Vitamin C","Natural Coconut Flavour","Natural Mango","Natural Carotene Extract Pigment","Chia Seed"],
+contains: [],
+  comments: [],
+	barcode: 8801402881684,
+};
+
+products[56] = {
+name:"Super chia raspberry fashion fruit",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10039453_JPG_500.jpg",
+price: 8990,
+ingredients: ["Purified Water","Passion Fruit Juice","Respberry Concentrate","Chia Seeds", "sugar","Citric Acid","Vitamin C","Gellan Gum","Natural Raspberry Flavour","Natural Purple Sweet Potato Pigment"],
+contains: [],
+comments: [],
+	barcode: 8801402881707,
+};
+
+products[57] = {
+name:"Sangria Lamune",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028479_JPG_500.jpg",
+price: 2980,
+ingredients: ["Purified Water","Fructose","Glucose Liquid Sugar","Sugar","Carbon Dioxide","Natural Flavoring (lemon flvaour)","Citric Acid"],
+contains: [],
+comments: [],
+	barcode: 4902179004536,
+};
+
+products[58] = {
+name:"Just drink coffee mandeering",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024336_JPG_500.jpg",
+price: 3490,
+ingredients: ["Coffee Powder(Indian)","Creamer (corn syrup solids)","Hardened Palm Oil","casein 0.2% (Vietnamese acid (bean), 49% solids)","glycerin fatty acid ester","milk","carbonic acid extract","coffee extract","milk powder","sodium hydrogen"],
+contains: [],
+  comments: [],
+	barcode: 4710784962574,
+};
+
+products[59] = {
+name:"Musk melon cider",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028412_JPG_500.jpg",
+price: 5900,
+ingredients: ["Carbonated Water","Glucose Fructose Syrup","Citric Acid","Natural Flavoring Agent (muskmelon flavored)"],
+contains: [],
+comments: [],
+	barcode: 4964621180656,
+};
+
+products[60] = {
+name:"Bundaberg Gingerbread",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028437_JPG_500.jpg",
+price: 5990,
+ingredients: ["Carbonated water","sugar cane sugar"," ginger root","natural ginger flavor","citric acid","vitamin C","sodium benzoate (synthetic preservatives)","yeast"],
+contains: ["diary"],
+  comments: [],
+	barcode: 8801873748193,
+};
+
+products[61] = {
+name:"PAD THAI NOODLE SET ",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040275_JPG_500.jpg",
+price: 1120,
+ingredients: ["Rice", "tamarind juice", "purified water", "sugar", "vinegar (brown rice, acetic acid)", "refined salt", "pre-hydroxypropyl phosphate", "garlic powder", "chili pepper", "paprika extract dye", "yeast extract"],
+contains: [],
+  comments: [],
+	barcode: 8801062521234,
+};
+
+products[62] = {
+name:"Rice Noodles",
+img:"http://image.homeplus.co.kr/UserFiles/Pressimages/69/320/000043869_0.jpg",
+price: 3400,
+ingredients: ["Rice Flour","tapioca starch"],
+contains: [],
+comments: [],
+  barcode: 8801128503765,
+};
+
+products[63] = {
+name:"MI GORENG FRIED NOODLE",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10046040_JPG_500.jpg",
+price: 9990,
+ingredients: ["Tofu (starch powder","garlic powder","tapioca starch"," sugar","powdered palm oil (mixed D-tocopherol)","Purified Water","salt", "onion","soybean","potassium carbonate","sesame oil","vitamin B2","onion powder","yeast extract"],
+contains: [],
+  comments: [],
+  barcode: 89686170733
+,
+};
+products[64] = {
+name:"Thai Noodle",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10044721_JPG_500.jpg",
+price: 2980,
+ingredients: ["Rice","Tapioca starch"],
+contains: [],
+  comments: [],
+  barcode: 8857106430468,
+};
+
+products[65] = {
+name:"Rice Stick Dried Rice Noodle",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040285_JPG_500.jpg",
+price: 1000,
+ingredients: ["Rice","Purified Water"],
+contains: [],
+  comments: [],
+  barcode: 8801982737123,
+};
+
+products[66] = {
+name:"pho (Po) Vietnam rice noodle",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10035719_JPG_500.jpg",
+price: 1000,
+ingredients: ["white sugar","refined salt","rice","Beef Seeds Ning Pauda-N","Soy Sauce Powder","beef extract","sodium L-glutamate","purified glucose","bamboo powder(milk)","garlic powder","dried red pepper","staranise powder","black pepper powder","liquid fructose","tomato ketchup","mixed soy sauce[defatted soybean]","sun salt","fermented vinegar","onion","tomato paste","pickles","chinese red pepper","red pepper paste","spirits","malic acid","grapefruit seed extract","high water"],
+contains: ["beef","dairy","seafood"],
+  comments: [],
+  barcode: 8801354400926,
+};
+
+products[67] = {
+name:"Thin noodles",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040056_JPG_500.jpg",
+price: 8990,
+ingredients: ["Wheat flour","sun salt"],
+contains: [],
+comments: [],
+  barcode: 8801277170814,
+};
+
+products[68] = {
+name:"Sunlee Rice Stick",
+img:"hhttps://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040215_JPG_500.jpg",
+price: 2980,
+ingredients: ["rice flour","purified water"],
+contains: [],
+comments: [],
+  barcode: 8801874313456,
+};
+
+products[69] = {
+name:"Sweetwell Rice Stick",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10007653_JPG_500.jpg",
+price: 3490,
+ingredients: ["tapioca starch","rice"],
+contains: [],
+  comments: [],
+  barcode: 8809236620387,
+};
+
+products[70] = {
+name:"Delicious rice toppokki",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10046318_JPG_500.jpg",
+price: 5900,
+ingredients: ["Rice","dried cabbage","hot pepper paste","wheat four","red pepper powder","miso soup","tomato paste","garlic","spring chestnut","refined salt","beef base","beef tongue","pepper powder","modified starch","sodium L-glutamate","flavour enhancer","paprika extract pigment"],
+contains: ["beef","milk"],
+comments: [],
+  barcode: 8801045891613,
+};
+products[11] = {
+name:"Organic grass grazing cheese cheddar slice",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10045024_JPG_500.jpg",
+price: 5990,
+ingredients: ["Organic cheddar 75% (New Zealand 100%)", "crude oil", "salt", "lactic acid bacteria", "milk coagulase", "purified water", "acidity regulator", "granula cheese (New Zealand)", "purified salt (domestic))"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801121772751,
+};
+products[12] = {
+name:"Upper and lower cheese String cheese",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10038940_JPG_500.jpg",
+price: 4250,
+ingredients: ["Milk 99.7% (domestic)", "salt", "lactic acid bacteria", "milk coagulase enzyme"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801121771341,
+};
+products[13] = {
+name:"Kolios Feta",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10038470_JPG_500.jpg",
+price: 4580,
+ingredients: ["soy milk", "goat milk", "salt", "culture", "rennet"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 5201704054886,
+};
+products[14] = {
+name:"Denmark Yogurt Plain",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002682_JPG_500.jpg",
+price: 7450,
+ingredients: ["Milk", "Whey Powder", "Mixed Preparation (Gelatin, Amide Pectin)", "Glucose", "Bios 2000", "Lactic Acid Bacteria", "Purified Water"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801155825713,
+};
+products[15] = {
+name:"Peacock Greek Yogurt",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10038899_JPG_500.jpg",
+price: 1150,
+ingredients: ["milk (domestic)", "milk powder (Danish)", "milk cream (Australia)", "mixed skim milk powder", "lactic acid bacteria"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801121771815,
+};
+products[16] = {
+name:"Yoplait Plain",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10005374_JPG_500.jpg",
+price: 4220,
+ingredients: ["White sugar", "modified starch", "amide pectin", "synthetic flavoring agent (milk flavor)", "xanthan gum", "mixed skim milk powder (imported)", "purified water", "modified starch", "amide pectin", "Glucose", "sunflower oil", "lactic acid bacteria"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801104240642,
+};
+products[17] = {
+name:"Maeil Milk",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10032287_JPG_500.jpg",
+price: 4250,
+ingredients: ["milk(domestic)"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 88002002,
+};
+products[18] = {
+name:"Seoul Milk ME 100%",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10044734_JPG_500.jpg",
+price: 4510,
+ingredients: ["milk(domestic)"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801115114154,
+};
+products[19] = {
+name:"Namyang Delicious Milk GT",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002964_JPG_500.jpg",
+price: 3810,
+ingredients: ["milk(domestic)"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801069121130,
+};
+products[20] = {
+name:"Pasteur nonfat milk",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002473_JPG_500.jpg",
+price: 6710,
+ingredients: ["milk(domestic)"],
+contains: ["dairy"],
+  comments: [],
+	barcode: 8801207041115,
+};
+products[21] = {
+name:"Choice L Sweet Cone",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10039944_JPG_500.jpg",
+price: 5810,
+ingredients: ["Corn", "purified water", "sugar", "salt"],
+contains: ["processed"],
+  comments: [],
+	barcode: 8809143239320,
+};
+products[22] = {
+name:"Dongwon chick peas",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10032344_JPG_500.jpg",
+price: 2070,
+ingredients: ["Egyptian beans 60% (tinnitus: chickpea, US)", "purified water", "purified salt (domestic)", "calcium chloride", "vitamin C"],
+contains: ["processed"],
+  comments: [],
+	barcode: 8801047147206,
+};
+products[23] = {
+name:"Dongwon sweet corn",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10005093_JPG_500.jpg",
+price: 5140,
+ingredients: ["Corn", "purified water", "sugar", "refined salt"],
+contains: ["processed"],
+  comments: [],
+	barcode: 8801047153252,
+};
+products[24] = {
+name:"Cheongwon-won curry queen beef curry",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10000238_JPG_500.jpg",
+price: 5860,
+ingredients: ["Purified water", "mushrooms", "refined salt", "citric acid", "vitamin C", "sodium dihydroxyacetate (antioxidant)", "frozen onion 9% (onion, soybean oil / Chinese)", "oyster sauce", "curry sesame seed oil", "modified starch", "soybean meal", "beef 7% (Australian)", "fresh cream (milk)", "whipped cream", "banana puree", "onion cole", "Maltodextrin", "carrageenan 1.25%", "turmeric 26.96% (Indian)", "coriander (india)", "cumin", "Fig concentrate", "meat booster", "black pepper powder", "chlorella extract", "DHA", "flavor enhancer", "caramel color"],
+contains: ["processed", "beef"],
+  comments: [],
+	barcode: 8801052740010,
+};
+products[25] = {
+name:"Vegetable curry",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10000484_JPG_500.jpg",
+price: 2570,
+ingredients: ["Potato (US)", "acidity control agent", "fried onion 5% [onion (Chinese)", "carrot 5%" ,"processed butter (milk)", "refined salt", "beef tongue (soybean)", "garlic", "ginger", "flavor enhancer", "black pepper powder", "aqua regine curry flavor" ],
+contains: ["processed", "beef", "dairy"],
+  comments: [],
+	barcode: 8801007050331,
+};
+products[26] = {
+name:"Delicious Ottogi rice kimchi meat bowl",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10008818_JPG_500.jpg",
+price: 5140,
+ingredients: ["rice (domestic)", "pork (domestic)", "kimchi", "cabbage (domestic)", "radish (domestic)", "red pepper powder", "polyglycitol syrup", "isomaltooligosaccharides", "kochujang (wheat)", "garlic", "corn oil", "Soybean fermentation flavor", "vegetable decomposition protein (soybean)", "tropical fruit puree", "amino base", "refined salt", "seasoning powder", "dried kimchi powder", "ginger", "pepper powder", "ginger powder", "flavor enhancer" ],
+contains: ["processed", "pork"],
+  comments: [],
+	barcode: 8801045891132,
+};
+products[27] = {
+name:"Chicken rice bowl",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10008818_JPG_500.jpg",
+price: 4820,
+ingredients: ["Chicken (domestic)", "rice (domestic)", "purified water", "onion (Chinese)", "white sugar", "red pepper (chili / Chinese)", "fried onion paste", "Chicken Broth", "starch syrup", "garlic", "mixed soy sauce","modified starch"],
+contains: ["processed", "chicken"],
+  comments: [],
+	barcode: 8801007611693,
+};
+products[28] = {
+name:"Broccoli cheese soup",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10003881_JPG_500.jpg",
+price: 3820,
+ingredients: ["Parsley", "Onion (Domestic)", "Milk (Domestic)", "Flour", "Eva Rock", "Butter", "Beetrim Mix ∥ Soy Bean", "Bacon"," Corn Oil", "Chicken Bone Extract", "Fresh Cream", "L-glutamic acid sodium (flavor enhancer)", "emulsifier", "synthetic flavoring agent"],
+contains: ["processed", "chicken", "pork", "dairy"],
+  comments: [],
+	barcode: 8801007024202,
+};
+products[29] = {
+name:"Nutritional soup tofu broccoli",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10031407_JPG_500.jpg",
+price: 4500,
+ingredients: ["Clear tofu", "potatoes", "steamed potatoes", "roux", "butter", "chicken stock base (xanthan gum, flavor enhancer)", "Parmesan blend", "L- sodium glutamate (flavor enhancer)", "silicon dioxide", "Refined salt", "dried broccoli (Chinese)"],
+contains: ["processed", "chicken", "dairy"],
+  comments: [],
+	barcode: 8801007506470,
+};
+products[30] = {
+name:"Pumpkin porrige",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10031407_JPG_500.jpg",
+price: 2580,
+ingredients: ["Purified water", "pumpkin 34% (from Vietnam)", "white rice flour", "glutinous rice (domestic)", "sugar beans [red bean (Chinese), rice bran]", "rice grits", "rice flour", "refined salt", "vitamin C"],
+contains: ["processed"],
+  comments: [],
+	barcode: 8801047161592,
+};
