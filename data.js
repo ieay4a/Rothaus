@@ -149,6 +149,88 @@ contains: ["diary"],
 	barcode: 8801062521487,
 };
 
+products[31] = {
+name:"Haitai french pie apple",
+img:"http://image.homeplus.co.kr/UserFiles/Pressimages/52/320/100544152_0.jpg",
+price: 3040,
+ingredients: ["Wheat flour (wheat: US)","margarine [processed oil (palm oil: Malaysia","coconut oil: Indonesian)","palm oil: Malaysian acid","soybean oil (soybean)","processed butter (milk)] and others"],
+contains ["dairy"],
+barcode: 8801019311253,
+};
+
+products[32] = {
+	name:"Ivy crackers",
+	img:"http://image.homeplus.co.kr/UserFiles/Pressimages/75/320/103829575_0.jpg",
+	price: 3040,
+	ingredients: ["Flour 1 (wheat from USA)","wheat flour 2 (wheat from USA)","shortening (processed oil, hardened oil)", "mixed edible oil","yeast","cereal processed product","enzyme","nutritional enhancer","acidity regulator"],
+	contains: ["dairy"],
+	barcode: 8801019307256,
+};
+products[33] = {
+	name: "Mini cranky",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/08/320/122751808_0.jpg",
+	price: 4780,
+	ingredients: ["Cocoa butter (Cocoa butter","Cocoa butter","Cocoa butter)","Vegetable oil (Sunflower oil","Palm oil","Lecithin","Vitamin E","Citric acid) (Vanilla extract","propylene glycol","vanillin","delta decaractone)","pastry (wheat flour","other starch","white sugar","refined salt","sodium bicarbonate)","lactose, cocoa butter"],
+	contains:
+	barcode: 8801062636310,
+};
+products[34] = {
+	name:"Caramel Cone Maple",
+	img:"http://image.homeplus.co.kr/UserFiles/Pressimages/25/320/123676925_0.jpg",
+	price: 2380,
+	ingredients: ["(Mixed)","processed butter (mixed)","44.46% of corn (maize)","44.46% of mixed oil","59.98% of palm olein oil (Malaysian)","40% of sunflower oil )","Maple syrup (from Canada)","caramel sauce (from Chile)","butter blended powder [processed butter,"lactose,"sodium caseinate","emulsifier","refined salt","condensed milk","processed salt","caramel color 1","crystalline cellulose","synthetic flavoring Maple flavor)","refined salt","baking powder (sodium acid pyrophosphate","sodium hydrogen carbonate","starch","calcium phosphate monobasic","calcium lactate)","emulsifier"],
+	contains: ["dairy"],
+	barcode: 8801111904308,
+};
+products[35] = {
+	name: "Mini Onion Ring Tandoori Chicken Taste",
+	img:"http://image.homeplus.co.kr/UserFiles/Pressimages/27/320/127076027_0.jpg",
+	price: 1120,
+	ingredients: ["Wheat flour (wheat; US corn)","corn starch corn","foreign countries (Russia, Hungary, Serbia etc.)","rice bran oil (Thai)","modified starch","tandoori chicken taste seasoning Tandoori chicken flavor base","dextrin","Onion concentrate (from China)","potato powder (powder)","palm oil","mini onion ring base powder white sugar","powdered cellulose","refined salt"],
+	contains: ["chicken","dairy"],
+	barcode: 8801043038706,
+};
+products[36] = {
+	name: "Chicken chicken fried chicken",
+	img:"http://image.homeplus.co.kr/UserFiles/Pressimages/55/320/123212755_0.jpg",
+	price: 1120,
+	ingredients: ["Starch","high oleic acid canola oil","palm oil","cooked potatoes","chicken extract concentrate","fried chicken seasoning","prepared potatoes (wheat)","wheat flour (wheat flour (US and Australian)","yeast","refined salt Powder","refined salt","chicken (domestic)","defatted soybean (soybean)","lactose (milk)"],
+	contains: ["chicken", "dairy"],
+	barcode: 8801043004749,
+};
+products[37] = {
+	name: "foam",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/20/320/123212720_0.jpg",
+	price: 1120,
+	ingredients: ["Flavored seasoning powder (prepared potato powder","refined salt","calcium lactate","diel-methionine","enzyme-treated stevia)","palm oil","onion","potato beef flavored seasoning (wheat)","potato (domestic)","wheat starch","rice bran oil","starch","Defatted soybean (soybean)","whey powder (milk)","potato powder (from Belgium)"],
+	contains: ["dairy"],
+	barcode: 8801043004176,
+};
+products[38] = {
+	name: "Indan rice",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/14/320/123212714_0.jpg",
+	price: 1120,
+	ingredients: ["Corn pellets {corn (indian)","refined salt (domestic)","enzyme treated stevia","citric acid","rice bran oil (Thai)","palm oil (Malaysia)"],
+	contains:
+	barcode: 8801043036696,
+};
+products[39] = {
+	name: "Plain Cookie Original",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/20/320/102877920_0.jpg",
+	price: 2900, 
+	ingredients: ["Palm olein","palm olein oil","palm olein partially hardened oil","emulsifier","liquid phase (palm oil)","liquid sugar Fructose","starch","processed butter","D-sorbitol solution","egg product","glutinous rice (domestic) 1%","trehalose","milk palm"],
+	contains:
+	barcode: 8801204202571,
+};
+products[40] = {
+	name: "Almond peanuts",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/30/320/110956530_0.jpg",
+	price: 2990, 
+	ingredients: ["Wheat flour (wheat; from the United States and Canada)","almond (from the United States)","white sugar","cocoa preparation","imported vegetable oil","vegetable oil","lactose","cocoa mass","cocoa butter","almond powder","palm oil","(Vitamin E)","synthetic flavoring agent (vanilla extract)","vanilla extract","cereal processed product","egg product","processed butter","cell powder Gold I","acidity regulator","malt extract","emulsifier","refined salt","liquid fructose","Flavor","enzymes","peanut powder","yeast"],
+	contains: ["dairy"],
+	barcode: 8801062644704, 
+};
+
 products[51] = {
 name:"Just drink Tea Milk Tea",
 img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024309_JPG_500.jpg",
