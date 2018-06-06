@@ -5,9 +5,15 @@ $(() => {
     category.selectmenu();
     $('input[type=checkbox]').checkboxradio();
     $('input[type=radio]').checkboxradio();
-    $('#filter input').change (updateSearch);
+    $('#filterSearchButton').click (updateSearch);
     $('#searchButton').click (updateSearch);
-    searchinput.change (updateSearch);
+    $('#search').keypress(e => {
+        var keycode = e.keyCode || e.which;
+        if (keycode == '13') { // Enter key pressed
+            updateSearch();
+            e.stopPropagation();
+        }
+    });
 
     searchinput.autocomplete({
         source: products.map((product, i) => {return {value:product.name, pid:i};}),
@@ -21,7 +27,6 @@ $(() => {
     var newlist = $('#newlist');
     resultlist.parent().parent().hide();
 
-    //How to revert to suggenstions??
     function updateSearch () {
         resultlist.parent().parent().show();
         trendinglist.parent().parent().hide();
@@ -31,13 +36,23 @@ $(() => {
         results = Object.keys(products).filter (pid =>
             ! products[pid].contains.some (ing => $("#"+ing).prop("checked"))
         );
+
+        var category = $("#category").val();
+        if (category)
+            results = results.filter (pid => products[pid].category.indexOf(category) >= 0);
+
         var query = searchinput.val();
         if (query)
-            results = results.filter (pid => products[pid].name.indexOf(query) >= 0);
+            results = results.filter (pid => products[pid].name.indexOf(query) >= 0
+                               || products[pid].barcode == parseInt(query));
         if ($('#byprice').prop("checked"))
             results.sort((a,b) => products[a].price - products[b].price);
         if (! results.length) resultlist.text("No results")
         else resultlist.append(results.map(pid_to_product));
+
+        $('html, body').animate({
+            scrollTop: (resultlist.offset().top)
+        }, 500);
     }
 
     trendings = [1, 3, 5];
@@ -91,7 +106,7 @@ $(() => {
     });
 
     $("#barcodeInput").on('input',()=>{
-        if ($("#barcodeInput").val().length != 13)
+        if ($("#barcodeInput").val().length != 13)  //barcode should have 13 digits
             $("#barcodeSearchButton").addClass("greyout");
         else $("#barcodeSearchButton").removeClass("greyout");
     });
