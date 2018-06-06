@@ -526,7 +526,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10005
 price: 4220,
 ingredients: ["White sugar", "modified starch", "amide pectin", "synthetic flavoring agent (milk flavor)", "xanthan gum", "mixed skim milk powder (imported)", "purified water", "modified starch", "amide pectin", "Glucose", "sunflower oil", "lactic acid bacteria"],
 contains: ["dairy"],
-category: ["dairy],
+category: ["dairy"],
   comments: [],
 	barcode: 8801104240642,
 };
@@ -546,7 +546,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10044
 price: 4510,
 ingredients: ["milk(domestic)"],
 contains: ["dairy"],
-category: ["dairy],
+category: ["dairy"],
   comments: [],
 	barcode: 8801115114154,
 };
@@ -566,7 +566,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002
 price: 6710,
 ingredients: ["milk(domestic)"],
 contains: ["dairy"],
-category: ["dairy],
+category: ["dairy"],
   comments: [],
 	barcode: 8801207041115,
 };
