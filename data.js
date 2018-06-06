@@ -247,6 +247,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024
 price: 4500,
 ingredients: ["black powder (Chilean)","creamer (corn syrup solids)","hardened palm oil","Glycerin fatty acid ester","synthetic flavoring agent","green tea powder (Indian) ","theanine","sodium hydrogencarbonate","sodium disodium succinate","sodium salt"],
 contains: ["dairy"],
+category: ["drink","dairy"],
 comments:[],
 barcode: 4710784962789,
 };
@@ -257,6 +258,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10037
 price: 9990,
 ingredients: ["Coconut water","vitamin C"],
 contains: [],
+category: ["drink"],
 comments: [],
 barcode: 8809474570369,
 };
@@ -265,8 +267,9 @@ products[53] = {
 name:"VUCO COCONUT MILK",
 img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10037153_JPG_500.jpg",
 price: 2980,
-ingredients: ["Coconul Milk","Sugar","sucrose fatty acid ester","carrageenan","guar hum","natural coconut flabour","vitamin C"],
-contains: [],
+ingredients: ["Coconut Milk","Sugar","sucrose fatty acid ester","carrageenan","guar hum","natural coconut flabour","vitamin C"],
+contains: ["dairy"],
+category: ["drink","dairy"],
 comments: [],	
 barcode: 8809474570420,
 };
@@ -277,6 +280,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040
 price: 1000,
 ingredients: ["Carbonaed Water"],
 contains: [],
+category: ["drink"],
   comments: [],
 	barcode: 5942210000942,
 };
@@ -287,6 +291,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10039
 price: 1000,
 ingredients: ["Purified Water","Mango Juice","Coconut Water","Sugar","Citric Acid","Vitamin C","Natural Coconut Flavour","Natural Mango","Natural Carotene Extract Pigment","Chia Seed"],
 contains: [],
+category: ["drink"],
   comments: [],
 	barcode: 8801402881684,
 };
@@ -297,6 +302,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10039
 price: 8990,
 ingredients: ["Purified Water","Passion Fruit Juice","Respberry Concentrate","Chia Seeds", "sugar","Citric Acid","Vitamin C","Gellan Gum","Natural Raspberry Flavour","Natural Purple Sweet Potato Pigment"],
 contains: [],
+category: ["drink"],
 comments: [],
 	barcode: 8801402881707,
 };
@@ -307,6 +313,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028
 price: 2980,
 ingredients: ["Purified Water","Fructose","Glucose Liquid Sugar","Sugar","Carbon Dioxide","Natural Flavoring (lemon flvaour)","Citric Acid"],
 contains: [],
+category: ["drink"],
 comments: [],
 	barcode: 4902179004536,
 };
@@ -317,6 +324,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024
 price: 3490,
 ingredients: ["Coffee Powder(Indian)","Creamer (corn syrup solids)","Hardened Palm Oil","casein 0.2% (Vietnamese acid (bean), 49% solids)","glycerin fatty acid ester","milk","carbonic acid extract","coffee extract","milk powder","sodium hydrogen"],
 contains: [],
+category: ["drink"],
   comments: [],
 	barcode: 4710784962574,
 };
@@ -327,6 +335,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028
 price: 5900,
 ingredients: ["Carbonated Water","Glucose Fructose Syrup","Citric Acid","Natural Flavoring Agent (muskmelon flavored)"],
 contains: [],
+category: ["drink"],
 comments: [],
 	barcode: 4964621180656,
 };
@@ -337,6 +346,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028
 price: 5990,
 ingredients: ["Carbonated water","sugar cane sugar"," ginger root","natural ginger flavor","citric acid","vitamin C","sodium benzoate (synthetic preservatives)","yeast"],
 contains: ["diary"],
+category: ["drink","dairy"],
   comments: [],
 	barcode: 8801873748193,
 };
@@ -347,6 +357,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040
 price: 1120,
 ingredients: ["Rice", "tamarind juice", "purified water", "sugar", "vinegar (brown rice, acetic acid)", "refined salt", "pre-hydroxypropyl phosphate", "garlic powder", "chili pepper", "paprika extract dye", "yeast extract"],
 contains: [],
+category: ["processed"],
   comments: [],
 	barcode: 8801062521234,
 };
@@ -357,6 +368,7 @@ img:"http://image.homeplus.co.kr/UserFiles/Pressimages/69/320/000043869_0.jpg",
 price: 3400,
 ingredients: ["Rice Flour","tapioca starch"],
 contains: [],
+category: ["processed"],
 comments: [],
   barcode: 8801128503765,
 };
@@ -367,6 +379,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10046
 price: 9990,
 ingredients: ["Tofu (starch powder","garlic powder","tapioca starch"," sugar","powdered palm oil (mixed D-tocopherol)","Purified Water","salt", "onion","soybean","potassium carbonate","sesame oil","vitamin B2","onion powder","yeast extract"],
 contains: [],
+category: ["processed"],
   comments: [],
   barcode: 89686170733
 ,
@@ -377,6 +390,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10044
 price: 2980,
 ingredients: ["Rice","Tapioca starch"],
 contains: [],
+category: ["processed"],
   comments: [],
   barcode: 8857106430468,
 };
@@ -387,6 +401,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040
 price: 1000,
 ingredients: ["Rice","Purified Water"],
 contains: [],
+category: ["processed"],
   comments: [],
   barcode: 8801982737123,
 };
@@ -397,6 +412,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10035
 price: 1000,
 ingredients: ["white sugar","refined salt","rice","Beef Seeds Ning Pauda-N","Soy Sauce Powder","beef extract","sodium L-glutamate","purified glucose","bamboo powder(milk)","garlic powder","dried red pepper","staranise powder","black pepper powder","liquid fructose","tomato ketchup","mixed soy sauce[defatted soybean]","sun salt","fermented vinegar","onion","tomato paste","pickles","chinese red pepper","red pepper paste","spirits","malic acid","grapefruit seed extract","high water"],
 contains: ["beef","dairy","seafood"],
+category: ["processed","dairy"],
   comments: [],
   barcode: 8801354400926,
 };
@@ -407,6 +423,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040
 price: 8990,
 ingredients: ["Wheat flour","sun salt"],
 contains: [],
+category: ["processed"],
 comments: [],
   barcode: 8801277170814,
 };
@@ -417,6 +434,7 @@ img:"hhttps://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/1004
 price: 2980,
 ingredients: ["rice flour","purified water"],
 contains: [],
+category: ["processed"],
 comments: [],
   barcode: 8801874313456,
 };
@@ -427,6 +445,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10007
 price: 3490,
 ingredients: ["tapioca starch","rice"],
 contains: [],
+category: ["processed"],
   comments: [],
   barcode: 8809236620387,
 };
@@ -437,6 +456,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10046
 price: 5900,
 ingredients: ["Rice","dried cabbage","hot pepper paste","wheat four","red pepper powder","miso soup","tomato paste","garlic","spring chestnut","refined salt","beef base","beef tongue","pepper powder","modified starch","sodium L-glutamate","flavour enhancer","paprika extract pigment"],
 contains: ["beef","milk"],
+category: ["processed","dairy"],
 comments: [],
   barcode: 8801045891613,
 };
