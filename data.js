@@ -257,7 +257,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024
 price: 4500,
 ingredients: ["black powder (Chilean)","creamer (corn syrup solids)","hardened palm oil","Glycerin fatty acid ester","synthetic flavoring agent","green tea powder (Indian) ","theanine","sodium hydrogencarbonate","sodium disodium succinate","sodium salt"],
 contains: ["dairy"],
-category: ["drink","dairy"],
+category: ["drink"],
 comments:[],
 barcode: 4710784962789,
 };
@@ -279,7 +279,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10037
 price: 2980,
 ingredients: ["Coconut Milk","Sugar","sucrose fatty acid ester","carrageenan","guar hum","natural coconut flabour","vitamin C"],
 contains: ["dairy"],
-category: ["drink","dairy"],
+category: ["drink"],
 comments: [],	
 barcode: 8809474570420,
 };
@@ -356,7 +356,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10028
 price: 5990,
 ingredients: ["Carbonated water","sugar cane sugar"," ginger root","natural ginger flavor","citric acid","vitamin C","sodium benzoate (synthetic preservatives)","yeast"],
 contains: ["dairy"],
-category: ["drink","dairy"],
+category: ["drink"],
   comments: [],
 	barcode: 8801873748193,
 };
@@ -422,7 +422,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10035
 price: 1000,
 ingredients: ["white sugar","refined salt","rice","Beef Seeds Ning Pauda-N","Soy Sauce Powder","beef extract","sodium L-glutamate","purified glucose","bamboo powder(milk)","garlic powder","dried red pepper","staranise powder","black pepper powder","liquid fructose","tomato ketchup","mixed soy sauce[defatted soybean]","sun salt","fermented vinegar","onion","tomato paste","pickles","chinese red pepper","red pepper paste","spirits","malic acid","grapefruit seed extract","high water"],
 contains: ["beef","dairy","seafood"],
-category: ["processed","dairy"],
+category: ["processed"],
   comments: [],
   barcode: 8801354400926,
 };
@@ -466,7 +466,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10046
 price: 5900,
 ingredients: ["Rice","dried cabbage","hot pepper paste","wheat four","red pepper powder","miso soup","tomato paste","garlic","spring chestnut","refined salt","beef base","beef tongue","pepper powder","modified starch","sodium L-glutamate","flavour enhancer","paprika extract pigment"],
 contains: ["beef","milk"],
-category: ["processed","dairy"],
+category: ["processed"],
 comments: [],
   barcode: 8801045891613,
 };
