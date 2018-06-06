@@ -154,7 +154,7 @@ name:"Haitai french pie apple",
 img:"http://image.homeplus.co.kr/UserFiles/Pressimages/52/320/100544152_0.jpg",
 price: 3040,
 ingredients: ["Wheat flour (wheat: US)","margarine [processed oil (palm oil: Malaysia","coconut oil: Indonesian)","palm oil: Malaysian acid","soybean oil (soybean)","processed butter (milk)] and others"],
-contains ["dairy"],
+contains: ["dairy"],
 barcode: 8801019311253,
 };
 
