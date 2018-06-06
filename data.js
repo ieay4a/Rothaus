@@ -166,6 +166,7 @@ price: 3040,
 ingredients: ["Wheat flour (wheat: US)","margarine [processed oil (palm oil: Malaysia","coconut oil: Indonesian)","palm oil: Malaysian acid","soybean oil (soybean)","processed butter (milk)] and others"],
 contains: ["dairy"],
 category: ["snacks"],
+comments: [],
 barcode: 8801019311253,
 };
 
@@ -176,6 +177,7 @@ products[32] = {
 	ingredients: ["Flour 1 (wheat from USA)","wheat flour 2 (wheat from USA)","shortening (processed oil, hardened oil)", "mixed edible oil","yeast","cereal processed product","enzyme","nutritional enhancer","acidity regulator"],
 	contains: ["dairy"],
 	category: ["snacks"],
+	comments: [],
 	barcode: 8801019307256,
 };
 products[33] = {
@@ -185,6 +187,7 @@ products[33] = {
 	ingredients: ["Cocoa butter (Cocoa butter","Cocoa butter","Cocoa butter)","Vegetable oil (Sunflower oil","Palm oil","Lecithin","Vitamin E","Citric acid) (Vanilla extract","propylene glycol","vanillin","delta decaractone)","pastry (wheat flour","other starch","white sugar","refined salt","sodium bicarbonate)","lactose, cocoa butter"],
 	contains:[],
 	category:["snacks"],
+	comments: [],
 	barcode: 8801062636310,
 };
 products[34] = {
@@ -194,6 +197,7 @@ products[34] = {
 	ingredients: ["(Mixed)","processed butter (mixed)","44.46% of corn (maize)","44.46% of mixed oil","59.98% of palm olein oil (Malaysian)","40% of sunflower oil )","Maple syrup (from Canada)","caramel sauce (from Chile)","butter blended powder [processed butter,"lactose,"sodium caseinate","emulsifier","refined salt","condensed milk","processed salt","caramel color 1","crystalline cellulose","synthetic flavoring Maple flavor)","refined salt","baking powder (sodium acid pyrophosphate","sodium hydrogen carbonate","starch","calcium phosphate monobasic","calcium lactate)","emulsifier"],
 	contains: ["dairy"],
 	category: ["snacks"],
+	comments: [],
 	barcode: 8801111904308,
 };
 products[35] = {
@@ -203,6 +207,7 @@ products[35] = {
 	ingredients: ["Wheat flour (wheat; US corn)","corn starch corn","foreign countries (Russia, Hungary, Serbia etc.)","rice bran oil (Thai)","modified starch","tandoori chicken taste seasoning Tandoori chicken flavor base","dextrin","Onion concentrate (from China)","potato powder (powder)","palm oil","mini onion ring base powder white sugar","powdered cellulose","refined salt"],
 	contains: ["chicken","dairy"],
 	category: ["snacks"],
+	comments: [],
 	barcode: 8801043038706,
 };
 products[36] = {
@@ -212,6 +217,7 @@ products[36] = {
 	ingredients: ["Starch","high oleic acid canola oil","palm oil","cooked potatoes","chicken extract concentrate","fried chicken seasoning","prepared potatoes (wheat)","wheat flour (wheat flour (US and Australian)","yeast","refined salt Powder","refined salt","chicken (domestic)","defatted soybean (soybean)","lactose (milk)"],
 	contains: ["chicken", "dairy"],
 	category: ["snacks"],
+	comments: [],
 	barcode: 8801043004749,
 };
 products[37] = {
@@ -221,6 +227,7 @@ products[37] = {
 	ingredients: ["Flavored seasoning powder (prepared potato powder","refined salt","calcium lactate","diel-methionine","enzyme-treated stevia)","palm oil","onion","potato beef flavored seasoning (wheat)","potato (domestic)","wheat starch","rice bran oil","starch","Defatted soybean (soybean)","whey powder (milk)","potato powder (from Belgium)"],
 	contains: ["dairy"],
 	category: ["snacks"],
+	comments: [],
 	barcode: 8801043004176,
 };
 products[38] = {
@@ -230,6 +237,7 @@ products[38] = {
 	ingredients: ["Corn pellets {corn (indian)","refined salt (domestic)","enzyme treated stevia","citric acid","rice bran oil (Thai)","palm oil (Malaysia)"],
 	contains:[],
 	category:["snacks"],
+	comments: [],
 	barcode: 8801043036696,
 };
 products[39] = {
@@ -239,6 +247,7 @@ products[39] = {
 	ingredients: ["Palm olein","palm olein oil","palm olein partially hardened oil","emulsifier","liquid phase (palm oil)","liquid sugar Fructose","starch","processed butter","D-sorbitol solution","egg product","glutinous rice (domestic) 1%","trehalose","milk palm"],
 	contains:[],
 	category:["snacks"],
+	comments: [],
 	barcode: 8801204202571,
 };
 products[40] = {
@@ -248,9 +257,109 @@ products[40] = {
 	ingredients: ["Wheat flour (wheat; from the United States and Canada)","almond (from the United States)","white sugar","cocoa preparation","imported vegetable oil","vegetable oil","lactose","cocoa mass","cocoa butter","almond powder","palm oil","(Vitamin E)","synthetic flavoring agent (vanilla extract)","vanilla extract","cereal processed product","egg product","processed butter","cell powder Gold I","acidity regulator","malt extract","emulsifier","refined salt","liquid fructose","Flavor","enzymes","peanut powder","yeast"],
 	contains: ["dairy"],
 	category: ["snacks"],
+	comments: [],
 	barcode: 8801062644704, 
 };
-
+products[41] = {
+	name: "I love toast",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/52/320/121594552_0.jpg",
+	price: 1990,
+	ingredients: ["Flour (wheat: imported)","white sugar","margarine (soybean)","vegetable oil (palm oil: from Malaysia)","processed oil (palm oil: from Malaysia)","refined salt","yeast","liquid fructose","vegetable cream (milk) (Acidity regulator","cyclodextrin","emulsifier)","other processed products","vitamin B2"],
+	contains: ["dairy"],
+	category: ["bakery"],
+	comments: [],
+	barcode:8801062713431,
+};
+products[42] = {
+	name: "Happy toast",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/41/320/121684941_0.jpg",
+	price:  1000,
+	ingredients: ["(Modified starch, sugar, skim milk)","wheat flour (wheat: imported)","white sugar","margarine vegetable oil (palm oil: malaysia)","processed oil (palm oil: malaysia)","refined salt, emulsifier, lecithin","Mixed corn flour","eggs","yeast","refined salt","processed milk powder","mixed preparation 2 (enzyme, vitamin C, flour)","mixed preparation 3 (Na acetate","(Corn flavor)","vitamin B2"],
+	contains: ["dairy"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801062711130,
+};
+products[43] = {
+	name: "Milk bread",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/52/320/114346552_0.jpg",
+	price: 990,
+	ingredients: ["(Wheat, imported)","milk (domestic) 7.08%","margarine (vegetable oil palm oil (Malaysia)","palm oil (Indonesia)","soybean oil (soybean)","processing oil","refined salt","emulsifier","(Milk)","yeast","refined salt","fructooligosaccharides"],
+	contains: ["dairy"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801144034164,
+};
+products[44] = {
+	name: "Toast every morning",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/16/320/007028016_0.jpg",
+	price: 3250,
+	ingredients: ["Wheat flour wheat (from the United States and Canada)","wheat from Australia and the United States","white sugar","shortening / Indonesian palm oil","d-tocopherol (mixed type)","emulsifier","yeast","liquid fructose","Eggs","refined salt","processed cereal products (soybeans)","emulsifiers","synthetic flavoring agents (milk flavor)","processed cereal products (soybean)"],
+	contains: ["dairy","egg"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801068086966,
+};
+products[45] = {
+	name: "Milk toast in the morning",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/41/320/115409341_0.jpg",
+	price: 1980,
+	ingredients: ["Flour (wheat / US, Canadian)","white sugar","shortening / Indonesian","milk (crude oil / domestic)","yeast","refined salt","emulsifier","other processed products","processed soybean"],
+	contains: ["dairy"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801068087062,
+};
+products[46] = {
+	name: "Full moonlight",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/27/320/120160727_0.jpg",
+	price: 2450,
+	ingredients: ["Wheat flour (wheat / US)","egg product / domestic (egg)","white sugar","delicious strawberry cream Margarine (vegetable oil (palm oil / Malaysia acid, palm oil / Indonesian acid, soybean oil / imported acid)","(Milk / soybean)","strawberry jam (frozen strawberry (strawberry / Chinese)","frozen strawberry (strawberry / Chilean)","lemon juice / (Wheat flour, white sugar, margarine, peanut butter (peanut)","mixed preparation (acidity regulator, starch)","starch syrup","D-sorbitol solution","mixed (Emulsifier, fructose, alcohol)","synthetic swelling agent acidity regulator","wheat flour, rape oil)","refined salt","synthetic flavoring agent (vanilla flavor)","vitamin B2"],
+	contains: ["dairy","egg"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801068087000,
+};
+products[47] = {
+	name: "An old honey cake",
+	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/41/320/107015641_0.jpg",
+	price: 2800,
+	ingredients: ["Wheat Flour (Wheat / Imported)","Honey Rice Cream Brown Sugar","White Sugar","Modified Starch","Honey Domestic","Starch Imported Product","White Sugar","Margarine Palm Oil","Soybean Oil","Palm Stearin","Coconut Oil","Refined salt","mixed preparation acidity regulator","starch","emulsifier","processed cereal (soybean)","cereal processed product (soybean)","synthetic flavoring (roasted corn)"],
+	contains: ["dairy"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801068036381,
+};
+products[48] = {
+	name: "Samlip premium sandwich",
+	img: "http://image.homeplus.co.kr/UserFiles/Goods/320/128354342_0.jpg",
+	price: 3490,
+	ingredients: ["Bread","Flour (Wheat / Made in USA, Canadian)","Roman Mill Bakery Mix / Made in USA","Sugar","Processed Butter","Whey"],
+	contains: ["egg","dairy"], 
+	category: ["bakery"],
+	comments: [],
+	barcode: 8801068368215,
+};
+products[49] = {
+	name: "Whole wheat donuts",
+	img:"http://image.homeplus.co.kr/Goods/GMO/main/320/14/34/81/984143481.jpg",
+	price: 4500,
+	ingredients: ["Wheat flour mix (whole wheat flour 93%)","sugar","eggs","sunflower seed oil","milk","low fat yogurt (milk)","egg yolk (egg)","glycerin fatty acid ester","soy lecithin (soybean) Hydrogen ammonium","sodium bicarbonate","acidic sodium pyrophosphate","natural vanilla flavor","refined salt","barley malt extract"],
+	contains: ["dairy","egg"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8002590308001,
+};
+products[50] = {
+	name: "Chocolate croissants",
+	img: "http://image.homeplus.co.kr/Goods/GMO/main/320/14/34/80/984143480.jpg",
+	price: 4500,
+	ingredients:["(Wheat)","chocolate filling 22.5% sugar","glucose syrup","purified water","milk chocolate 10%","low fat cocoa 38%","sugar","cocoa butter 14%","sunflower oil","safflower oil","olive oil","natural citrus flavor","pectin","Wheat gluten (wheat)","refined salt","wheat germ powder (wheat)","yeast","natural yeast (wheat)","sugar","shea butter","glucose fructose syrup","glycerin fatty acid ester","soy lecithin (soybean)"],
+	contains: ["dairy"],
+	category: ["bakery"],
+	comments: [],
+	barcode: 8002590040369,
+};
 products[51] = {
 name:"Just drink Tea Milk Tea",
 img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10024309_JPG_500.jpg",
