@@ -155,6 +155,7 @@ img:"http://image.homeplus.co.kr/UserFiles/Pressimages/52/320/100544152_0.jpg",
 price: 3040,
 ingredients: ["Wheat flour (wheat: US)","margarine [processed oil (palm oil: Malaysia","coconut oil: Indonesian)","palm oil: Malaysian acid","soybean oil (soybean)","processed butter (milk)] and others"],
 contains: ["dairy"],
+category: ["snacks"],
 barcode: 8801019311253,
 };
 
@@ -164,6 +165,7 @@ products[32] = {
 	price: 3040,
 	ingredients: ["Flour 1 (wheat from USA)","wheat flour 2 (wheat from USA)","shortening (processed oil, hardened oil)", "mixed edible oil","yeast","cereal processed product","enzyme","nutritional enhancer","acidity regulator"],
 	contains: ["dairy"],
+	category: ["snacks"],
 	barcode: 8801019307256,
 };
 products[33] = {
@@ -171,7 +173,8 @@ products[33] = {
 	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/08/320/122751808_0.jpg",
 	price: 4780,
 	ingredients: ["Cocoa butter (Cocoa butter","Cocoa butter","Cocoa butter)","Vegetable oil (Sunflower oil","Palm oil","Lecithin","Vitamin E","Citric acid) (Vanilla extract","propylene glycol","vanillin","delta decaractone)","pastry (wheat flour","other starch","white sugar","refined salt","sodium bicarbonate)","lactose, cocoa butter"],
-	contains:
+	contains:[],
+	category:["snacks"],
 	barcode: 8801062636310,
 };
 products[34] = {
@@ -180,6 +183,7 @@ products[34] = {
 	price: 2380,
 	ingredients: ["(Mixed)","processed butter (mixed)","44.46% of corn (maize)","44.46% of mixed oil","59.98% of palm olein oil (Malaysian)","40% of sunflower oil )","Maple syrup (from Canada)","caramel sauce (from Chile)","butter blended powder [processed butter,"lactose,"sodium caseinate","emulsifier","refined salt","condensed milk","processed salt","caramel color 1","crystalline cellulose","synthetic flavoring Maple flavor)","refined salt","baking powder (sodium acid pyrophosphate","sodium hydrogen carbonate","starch","calcium phosphate monobasic","calcium lactate)","emulsifier"],
 	contains: ["dairy"],
+	category: ["snacks"],
 	barcode: 8801111904308,
 };
 products[35] = {
@@ -188,6 +192,7 @@ products[35] = {
 	price: 1120,
 	ingredients: ["Wheat flour (wheat; US corn)","corn starch corn","foreign countries (Russia, Hungary, Serbia etc.)","rice bran oil (Thai)","modified starch","tandoori chicken taste seasoning Tandoori chicken flavor base","dextrin","Onion concentrate (from China)","potato powder (powder)","palm oil","mini onion ring base powder white sugar","powdered cellulose","refined salt"],
 	contains: ["chicken","dairy"],
+	category: ["snacks"],
 	barcode: 8801043038706,
 };
 products[36] = {
@@ -196,6 +201,7 @@ products[36] = {
 	price: 1120,
 	ingredients: ["Starch","high oleic acid canola oil","palm oil","cooked potatoes","chicken extract concentrate","fried chicken seasoning","prepared potatoes (wheat)","wheat flour (wheat flour (US and Australian)","yeast","refined salt Powder","refined salt","chicken (domestic)","defatted soybean (soybean)","lactose (milk)"],
 	contains: ["chicken", "dairy"],
+	category: ["snacks"],
 	barcode: 8801043004749,
 };
 products[37] = {
@@ -204,6 +210,7 @@ products[37] = {
 	price: 1120,
 	ingredients: ["Flavored seasoning powder (prepared potato powder","refined salt","calcium lactate","diel-methionine","enzyme-treated stevia)","palm oil","onion","potato beef flavored seasoning (wheat)","potato (domestic)","wheat starch","rice bran oil","starch","Defatted soybean (soybean)","whey powder (milk)","potato powder (from Belgium)"],
 	contains: ["dairy"],
+	category: ["snacks"],
 	barcode: 8801043004176,
 };
 products[38] = {
@@ -211,7 +218,8 @@ products[38] = {
 	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/14/320/123212714_0.jpg",
 	price: 1120,
 	ingredients: ["Corn pellets {corn (indian)","refined salt (domestic)","enzyme treated stevia","citric acid","rice bran oil (Thai)","palm oil (Malaysia)"],
-	contains:
+	contains:[],
+	category:["snacks"],
 	barcode: 8801043036696,
 };
 products[39] = {
@@ -219,7 +227,8 @@ products[39] = {
 	img: "http://image.homeplus.co.kr/UserFiles/Pressimages/20/320/102877920_0.jpg",
 	price: 2900, 
 	ingredients: ["Palm olein","palm olein oil","palm olein partially hardened oil","emulsifier","liquid phase (palm oil)","liquid sugar Fructose","starch","processed butter","D-sorbitol solution","egg product","glutinous rice (domestic) 1%","trehalose","milk palm"],
-	contains:
+	contains:[],
+	category:["snacks"],
 	barcode: 8801204202571,
 };
 products[40] = {
@@ -228,6 +237,7 @@ products[40] = {
 	price: 2990, 
 	ingredients: ["Wheat flour (wheat; from the United States and Canada)","almond (from the United States)","white sugar","cocoa preparation","imported vegetable oil","vegetable oil","lactose","cocoa mass","cocoa butter","almond powder","palm oil","(Vitamin E)","synthetic flavoring agent (vanilla extract)","vanilla extract","cereal processed product","egg product","processed butter","cell powder Gold I","acidity regulator","malt extract","emulsifier","refined salt","liquid fructose","Flavor","enzymes","peanut powder","yeast"],
 	contains: ["dairy"],
+	category: ["snacks"],
 	barcode: 8801062644704, 
 };
 
@@ -436,6 +446,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10045
 price: 5990,
 ingredients: ["Organic cheddar 75% (New Zealand 100%)", "crude oil", "salt", "lactic acid bacteria", "milk coagulase", "purified water", "acidity regulator", "granula cheese (New Zealand)", "purified salt (domestic))"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 8801121772751,
 };
@@ -445,6 +456,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10038
 price: 4250,
 ingredients: ["Milk 99.7% (domestic)", "salt", "lactic acid bacteria", "milk coagulase enzyme"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 8801121771341,
 };
@@ -454,6 +466,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10038
 price: 4580,
 ingredients: ["soy milk", "goat milk", "salt", "culture", "rennet"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 5201704054886,
 };
@@ -463,6 +476,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002
 price: 7450,
 ingredients: ["Milk", "Whey Powder", "Mixed Preparation (Gelatin, Amide Pectin)", "Glucose", "Bios 2000", "Lactic Acid Bacteria", "Purified Water"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 8801155825713,
 };
@@ -472,6 +486,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10038
 price: 1150,
 ingredients: ["milk (domestic)", "milk powder (Danish)", "milk cream (Australia)", "mixed skim milk powder", "lactic acid bacteria"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 8801121771815,
 };
@@ -481,6 +496,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10005
 price: 4220,
 ingredients: ["White sugar", "modified starch", "amide pectin", "synthetic flavoring agent (milk flavor)", "xanthan gum", "mixed skim milk powder (imported)", "purified water", "modified starch", "amide pectin", "Glucose", "sunflower oil", "lactic acid bacteria"],
 contains: ["dairy"],
+category: ["dairy],
   comments: [],
 	barcode: 8801104240642,
 };
@@ -490,6 +506,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10032
 price: 4250,
 ingredients: ["milk(domestic)"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 88002002,
 };
@@ -499,6 +516,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10044
 price: 4510,
 ingredients: ["milk(domestic)"],
 contains: ["dairy"],
+category: ["dairy],
   comments: [],
 	barcode: 8801115114154,
 };
@@ -508,6 +526,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002
 price: 3810,
 ingredients: ["milk(domestic)"],
 contains: ["dairy"],
+category: ["dairy"],
   comments: [],
 	barcode: 8801069121130,
 };
@@ -517,6 +536,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10002
 price: 6710,
 ingredients: ["milk(domestic)"],
 contains: ["dairy"],
+category: ["dairy],
   comments: [],
 	barcode: 8801207041115,
 };
@@ -526,6 +546,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10039
 price: 5810,
 ingredients: ["Corn", "purified water", "sugar", "salt"],
 contains: ["processed"],
+category: ["processed"],
   comments: [],
 	barcode: 8809143239320,
 };
@@ -535,6 +556,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10032
 price: 2070,
 ingredients: ["Egyptian beans 60% (tinnitus: chickpea, US)", "purified water", "purified salt (domestic)", "calcium chloride", "vitamin C"],
 contains: ["processed"],
+category: ["processed"],
   comments: [],
 	barcode: 8801047147206,
 };
@@ -544,6 +566,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10005
 price: 5140,
 ingredients: ["Corn", "purified water", "sugar", "refined salt"],
 contains: ["processed"],
+category: ["processed"],
   comments: [],
 	barcode: 8801047153252,
 };
@@ -553,6 +576,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10000
 price: 5860,
 ingredients: ["Purified water", "mushrooms", "refined salt", "citric acid", "vitamin C", "sodium dihydroxyacetate (antioxidant)", "frozen onion 9% (onion, soybean oil / Chinese)", "oyster sauce", "curry sesame seed oil", "modified starch", "soybean meal", "beef 7% (Australian)", "fresh cream (milk)", "whipped cream", "banana puree", "onion cole", "Maltodextrin", "carrageenan 1.25%", "turmeric 26.96% (Indian)", "coriander (india)", "cumin", "Fig concentrate", "meat booster", "black pepper powder", "chlorella extract", "DHA", "flavor enhancer", "caramel color"],
 contains: ["processed", "beef"],
+category: ["processed"],
   comments: [],
 	barcode: 8801052740010,
 };
@@ -562,6 +586,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10000
 price: 2570,
 ingredients: ["Potato (US)", "acidity control agent", "fried onion 5% [onion (Chinese)", "carrot 5%" ,"processed butter (milk)", "refined salt", "beef tongue (soybean)", "garlic", "ginger", "flavor enhancer", "black pepper powder", "aqua regine curry flavor" ],
 contains: ["processed", "beef", "dairy"],
+category: ["processed"],
   comments: [],
 	barcode: 8801007050331,
 };
@@ -571,6 +596,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10008
 price: 5140,
 ingredients: ["rice (domestic)", "pork (domestic)", "kimchi", "cabbage (domestic)", "radish (domestic)", "red pepper powder", "polyglycitol syrup", "isomaltooligosaccharides", "kochujang (wheat)", "garlic", "corn oil", "Soybean fermentation flavor", "vegetable decomposition protein (soybean)", "tropical fruit puree", "amino base", "refined salt", "seasoning powder", "dried kimchi powder", "ginger", "pepper powder", "ginger powder", "flavor enhancer" ],
 contains: ["processed", "pork"],
+category: ["processed"],
   comments: [],
 	barcode: 8801045891132,
 };
@@ -580,6 +606,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10008
 price: 4820,
 ingredients: ["Chicken (domestic)", "rice (domestic)", "purified water", "onion (Chinese)", "white sugar", "red pepper (chili / Chinese)", "fried onion paste", "Chicken Broth", "starch syrup", "garlic", "mixed soy sauce","modified starch"],
 contains: ["processed", "chicken"],
+category: ["processed"],
   comments: [],
 	barcode: 8801007611693,
 };
@@ -589,6 +616,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10003
 price: 3820,
 ingredients: ["Parsley", "Onion (Domestic)", "Milk (Domestic)", "Flour", "Eva Rock", "Butter", "Beetrim Mix ∥ Soy Bean", "Bacon"," Corn Oil", "Chicken Bone Extract", "Fresh Cream", "L-glutamic acid sodium (flavor enhancer)", "emulsifier", "synthetic flavoring agent"],
 contains: ["processed", "chicken", "pork", "dairy"],
+category: ["processed"],
   comments: [],
 	barcode: 8801007024202,
 };
@@ -598,6 +626,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10031
 price: 4500,
 ingredients: ["Clear tofu", "potatoes", "steamed potatoes", "roux", "butter", "chicken stock base (xanthan gum, flavor enhancer)", "Parmesan blend", "L- sodium glutamate (flavor enhancer)", "silicon dioxide", "Refined salt", "dried broccoli (Chinese)"],
 contains: ["processed", "chicken", "dairy"],
+category: ["processed"],
   comments: [],
 	barcode: 8801007506470,
 };
@@ -607,6 +636,7 @@ img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10031
 price: 2580,
 ingredients: ["Purified water", "pumpkin 34% (from Vietnam)", "white rice flour", "glutinous rice (domestic)", "sugar beans [red bean (Chinese), rice bran]", "rice grits", "rice flour", "refined salt", "vitamin C"],
 contains: ["processed"],
+category: ["processed"],
   comments: [],
 	barcode: 8801047161592,
 };
