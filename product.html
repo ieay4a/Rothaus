@@ -28,23 +28,25 @@
         </a>
     </header>
 
-    <div id='search'>
-        <input id='searchinput' type='text' placeholder='Search for product'>
-        <div id='searchButton'>
-            <i class='fas fa-search'></i>
+    <nav>
+        <div id='search'>
+            <input id='searchinput' type='text' placeholder='Search for product'>
+            <div id='searchButton'>
+                <i class='fas fa-search'></i>
+            </div>
         </div>
-    </div>
 
-    <div id="advanced" style="display: flex; justify-content: flex-end">
-        <button id="barcodeButton">
-    <span>Barcode Search </span>
-    <i class="fas fa-angle-down"></i>
-  </button>
-        <button id="filterButton">
-    <span>Filter Search </span>
-    <i class="fas fa-angle-down"></i>
-  </button>
-    </div>
+        <div id='advanced' style="display: flex; justify-content: flex-end">
+            <button id='barcodeButton'>
+	        <span>Barcode Search </span>
+                <i class='fas fa-angle-down'></i>
+            </button>
+            <button id='filterButton'>
+	        <span>Filter Search </span>
+                <i class='fas fa-angle-down'></i>
+            </button>
+        </div>
+    </nav>
 
     <div id='barcodePanel'>
         <div id='closeBarcode' style="display: flex; justify-content: flex-end"><span class="closeText">close</span><span class='closeText'><i class='fas fa-angle-up'></i></span></div>
@@ -73,10 +75,10 @@
             <div class="customSelect">
                 <select id='category'>
                 <option value='' selected>Category</option>
-                <option value='dairy'>Dairy</option>
-                <option value='frozen'>Frozen</option>
                 <option value='processed'>Processed</option>
-                <option value='snack'>Snack</option>
+                <option value='dairy'>Dairy</option>
+                <option value='bakery'>Bakery</option>
+                <option value='snacks'>Snacks</option>
                 <option value='drink'>Drink</option>
                 </select>
             </div>

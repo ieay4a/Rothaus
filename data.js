@@ -1,4 +1,4 @@
-var products = [];
+﻿var products = [];
 products[0] = {
 name:"Paldo Bibim-myeon",
 img:"http://image.homeplus.co.kr/UserFiles/Pressimages/69/320/000043869_0.jpg",
@@ -150,6 +150,7 @@ img:"http://image.homeplus.co.kr/UserFiles/Pressimages/44/320/126114244_0.jpg",
 price: 1120,
 ingredients: ["Wheat flour (wheat)", "white sugar", "palm oil (from Malaysia)", "other sugar (raw sugar", "corn starch)", "shortening I (partially hydrogenated oil)", "cocoa powder", "shortening II", "powder", "crystalline glucose", "lactose", "processed cereal", "cocoa mass ", "Mixed preparations (modified starch", "maltodextrin)", "dextrin", "cell powder Gold I", "acidity regulator", "whey powder", "starch processed product", "refined salt", "lecithin", "synthetic flavoring (vanillin)"],
 contains: ["dairy"],
+category: ["snacks"],
   comments: [
   { username: "Brad",
     content: "Why is it called sand?",
@@ -194,7 +195,7 @@ products[34] = {
 	name:"Caramel Cone Maple",
 	img:"http://image.homeplus.co.kr/UserFiles/Pressimages/25/320/123676925_0.jpg",
 	price: 2380,
-	ingredients: ["(Mixed)","processed butter (mixed)","44.46% of corn (maize)","44.46% of mixed oil","59.98% of palm olein oil (Malaysian)","40% of sunflower oil )","Maple syrup (from Canada)","caramel sauce (from Chile)","butter blended powder [processed butter,"lactose,"sodium caseinate","emulsifier","refined salt","condensed milk","processed salt","caramel color 1","crystalline cellulose","synthetic flavoring Maple flavor)","refined salt","baking powder (sodium acid pyrophosphate","sodium hydrogen carbonate","starch","calcium phosphate monobasic","calcium lactate)","emulsifier"],
+	ingredients: ["(Mixed)","processed butter (mixed)","44.46% of corn (maize)","44.46% of mixed oil","59.98% of palm olein oil (Malaysian)","40% of sunflower oil )","Maple syrup (from Canada)","caramel sauce (from Chile)","butter blended powder [processed butter","lactose","sodium caseinate","emulsifier","refined salt","condensed milk","processed salt","caramel color 1","crystalline cellulose","synthetic flavoring Maple flavor)","refined salt","baking powder (sodium acid pyrophosphate","sodium hydrogen carbonate","starch","calcium phosphate monobasic","calcium lactate)","emulsifier"],
 	contains: ["dairy"],
 	category: ["snacks"],
 	comments: [],
@@ -549,7 +550,7 @@ comments: [],
 
 products[68] = {
 name:"Sunlee Rice Stick",
-img:"hhttps://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040215_JPG_500.jpg",
+img:"https://s3-ap-northeast-1.amazonaws.com/daesang-storage/foods/JPG_500/10040215_JPG_500.jpg",
 price: 2980,
 ingredients: ["rice flour","purified water"],
 contains: [],
