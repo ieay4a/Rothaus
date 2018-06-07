@@ -630,18 +630,43 @@ nav {
 div.list ul li{
     width: 33%;
     display: inline-block;
-    text-overflow: ellipsis;
 }
-div.list ul li div{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-div.list ul li span{
+div.list ul li div.productname{
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 div.list ul{
     width: inherit;
+}
+
+div.contains span {
+    display: inline-block;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    color: transparent;
+    background-size: cover;
+}
+.beef {
+    background-image: url(./icons/beef.svg);
+}
+.pork {
+    background-image: url(./icons/pork.svg);
+}
+.chicken {
+    background-image: url(./icons/chicken.svg);
+}
+.seafood {
+    background-image: url(./icons/seafood.svg);
+}
+.dairy {
+    background-image: url(./icons/dairy.svg);
+}
+.egg {
+    background-image: url(./icons/egg.svg);
+}
+
+span.price::before {
+    content: "\20a9";
 }
