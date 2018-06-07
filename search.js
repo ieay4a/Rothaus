@@ -102,6 +102,7 @@ $(() => {
                 } else {
                     input.val(result.codeResult.code);
                     inst.text("Is the following correct?");
+                    $("#barcodeSearchButton").removeClass("greyout");
                 }
             });
         }
