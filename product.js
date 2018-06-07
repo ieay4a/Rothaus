@@ -9,7 +9,7 @@ if (! product) return;
 $("img").attr("src", product.img);
 $(".productname").text(product.name);
 $(".contains").append(
-  product.contains.map (str => str + ", ") //needs change to icons
+  product.contains.map (s => $('<span class=' + s + '>').text(s))
 );
 $(".price").text(product.price + " KRW");
 
