@@ -231,6 +231,8 @@ nav {
     margin:1rem;
     padding: 1rem;
     background-color: white;
+    overflow: hidden;
+    height: auto;
 }
 .list li {
     display: inline-block;
@@ -626,4 +628,22 @@ nav {
 
     border-radius: 3px;
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+div.list ul li{
+    width: 33%;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+div.list ul li div{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+div.list ul li span{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+div.list ul{
+    width: inherit;
 }

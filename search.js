@@ -70,8 +70,8 @@ $(() => {
 	$('<a href="product.html?productid='+pid+'">').append(
 		$('<img>').attr('src', p.img),
 		$('<div class="productname">').text(p.name),
-		$('<span class="contains">').append(p.contains),
-		$('<span class="price">').text(p.price + " KRW")
+		$('<div class="contains">').append(p.contains),
+		$('<span class="price">').text(p.price + " KRW"),
 	));
     }
 
