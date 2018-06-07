@@ -43,8 +43,9 @@ $(() => {
 
         var query = searchinput.val();
         if (query)
-            results = results.filter (pid => products[pid].name.indexOf(query) >= 0
-                               || products[pid].barcode == parseInt(query));
+            results = results.filter (pid =>
+                          products[pid].name.toLowerCase().indexOf(query.toLowerCase()) >= 0
+                          || products[pid].barcode == parseInt(query));
         if ($('#byprice').prop("checked"))
             results.sort((a,b) => products[a].price - products[b].price);
         if (! results.length) resultlist.text("No results")
