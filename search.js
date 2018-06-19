@@ -52,7 +52,7 @@ $(() => {
         else resultlist.append(results.map(pid_to_product));
 
         $('html, body').animate({
-            scrollTop: (resultlist.offset().top)
+            scrollTop: (resultlist.parent().parent().offset().top)
         }, 500);
     }
 

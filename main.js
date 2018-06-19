@@ -64,6 +64,7 @@ $(document).ready(function () {
     $('#barcodeButton, #closeBarcode').click(function () {
         filterPanel.hide();
         barcodePanel.toggle();
+        $('html, body').animate({ scrollTop: 0 }, 500);
     });
 
     var filterPanel = $('#filterPanel');
@@ -71,6 +72,7 @@ $(document).ready(function () {
     $('#filterButton, #closeFilter').click(function () {
         barcodePanel.hide();
         filterPanel.toggle();
+        $('html, body').animate({ scrollTop: 0 }, 500);
     });
 
 
